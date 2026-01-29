@@ -1,0 +1,55 @@
+\chapter{Metodologia}
+
+Este trabalho adota uma metodologia experimental com o objetivo de avaliar a viabilidade tecnológica do uso de reconhecimento facial como alternativa ao controle de acesso baseado em cartões \acs{NFC}, no contexto acadêmico. A abordagem proposta fundamenta-se no conceito de aprendizado de representações em um espaço métrico, amplamente discutido na literatura de aprendizado profundo, em especial nas estratégias baseadas em redes siamesas e funções de perda do tipo \textit{triplet loss}, conforme apresentado por Andrew Ng. 
+
+Nesse contexto, busca-se verificar se \textit{embeddings} faciais extraídos por modelos de reconhecimento permitem a separação adequada entre diferentes identidades por meio de métricas de similaridade, possibilitando decisões confiáveis de autenticação e identificação. Considerando as restrições éticas e de privacidade associadas ao uso de dados biométricos reais, a metodologia emprega uma base de dados sintética e segue um conjunto estruturado de etapas, descritas a seguir, de forma a garantir reprodutibilidade e clareza na avaliação da abordagem proposta.
+
+%---------------------------------------------------------
+
+\section{Construção da base de dados sintética}
+
+A construção da base de dados utilizada neste estudo teve como objetivo viabilizar a realização de experimentos de reconhecimento facial sem a utilização de dados biométricos reais, em conformidade com princípios éticos e com a \ac{LGPD} (Lei nº 13.709/2018). Para esse fim, foi empregada uma base de imagens faciais sintéticas geradas artificialmente por meio de redes generativas adversariais (GANs), disponibilizadas publicamente pelo projeto \textit{This Person Does Not Exist}, o qual produz imagens fotorrealistas de rostos inexistentes, disponível em (https://thispersondoesnotexist.com/).
+
+Foram coletadas 400 imagens faciais sintéticas, cada uma representando uma identidade distinta. As imagens foram armazenadas em formato digital e organizadas em diretórios específicos do projeto, adotando-se um padrão de nomenclatura que permitisse a associação direta entre cada imagem e seu respectivo identificador de identidade. A utilização de dados sintéticos assegura que não exista qualquer vínculo com indivíduos reais, eliminando riscos de identificação pessoal e atendendo às diretrizes de privacidade estabelecidas pela \acs{LGPD}.
+
+Com o objetivo de estruturar adequadamente os experimentos, a base de dados foi particionada em dois conjuntos principais: um conjunto de desenvolvimento, composto por 300 identidades, e um conjunto de teste final, composto por 100 identidades distintas. O conjunto de desenvolvimento foi subdividido em três subconjuntos: treino, validação e teste, contendo, respectivamente, 240, 30 e 30 identidades. Essa divisão visa permitir a avaliação controlada do comportamento do sistema em diferentes fases do processo experimental, além de evitar sobreposição de identidades entre os conjuntos.
+
+Essa organização possibilita a realização de experimentos de reconhecimento facial de forma reprodutível e controlada, simulando um cenário de cadastramento e validação de usuários em sistemas de controle de acesso. A base de dados sintética construída nesta etapa constitui o insumo fundamental para as etapas subsequentes da metodologia, incluindo a extração de características faciais, a geração de \textit{embeddings} e a avaliação da separabilidade entre identidades no espaço métrico.
+
+%---------------------------------------------------------
+
+\section{Modelagem do cadastro de identidades}
+
+Após a construção e organização da base de dados sintética, procedeu-se à modelagem do cadastro de identidades a ser utilizado nos experimentos de reconhecimento facial. Essa modelagem teve como objetivo estruturar as informações de cada indivíduo de forma padronizada, facilitando o armazenamento, o processamento e a reprodutibilidade das etapas subsequentes da metodologia.
+
+Cada identidade foi representada por um registro estruturado em formato JSON, contendo os seguintes atributos: um identificador único (id), um nome fictício, o nome do arquivo da imagem facial associada e um campo destinado ao armazenamento da representação vetorial da face (embedding), inicialmente não preenchido. Essa estrutura permite a separação clara entre os dados descritivos da identidade e as informações extraídas automaticamente a partir das imagens faciais.
+
+Com o intuito de organizar adequadamente os experimentos e evitar sobreposição de identidades entre diferentes fases de avaliação, o cadastro foi dividido em dois arquivos JSON distintos. O primeiro arquivo corresponde ao conjunto de desenvolvimento, contendo as identidades destinadas às etapas de treino, validação e teste. Nesse arquivo, cada registro inclui um atributo adicional que indica a qual subconjunto a identidade pertence (train, validation ou test), respeitando a divisão previamente definida de 240, 30 e 30 identidades, respectivamente.
+
+O segundo arquivo JSON foi destinado exclusivamente ao conjunto de teste final, composto por 100 identidades distintas e não presentes no conjunto de desenvolvimento. Esse conjunto tem como finalidade permitir uma avaliação independente da abordagem proposta, simulando um cenário em que o sistema é exposto a identidades não utilizadas nas fases anteriores do processo experimental.
+
+A adoção de arquivos JSON distintos para o conjunto de desenvolvimento e para o teste final contribui para a organização do fluxo experimental, reduzindo riscos de vazamento de dados entre conjuntos e garantindo maior clareza na definição dos protocolos de avaliação. Além disso, o uso de um formato estruturado e amplamente suportado facilita a integração com os scripts de processamento, extração de embeddings e análise de similaridade empregados nas etapas subsequentes da metodologia.
+
+%---------------------------------------------------------
+
+\section{Extração inicial de características faciais (baseline)}
+
+%---------------------------------------------------------
+
+\section{Geração de variações sintéticas das imagens}
+
+%---------------------------------------------------------
+
+\section{Extração de embeddings faciais por modelo pré-treinado}
+
+%---------------------------------------------------------
+
+\section{Definição da métrica de similaridade}
+
+%---------------------------------------------------------
+
+\section{Protocolo experimental de avaliação}
+
+%---------------------------------------------------------
+
+\section{Procedimento de validação da viabilidade}
