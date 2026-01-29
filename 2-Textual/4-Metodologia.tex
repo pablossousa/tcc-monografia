@@ -22,33 +22,75 @@ Essa organização possibilita a realização de experimentos de reconhecimento 
 
 Após a construção e organização da base de dados sintética, procedeu-se à modelagem do cadastro de identidades a ser utilizado nos experimentos de reconhecimento facial. Essa modelagem teve como objetivo estruturar as informações de cada indivíduo de forma padronizada, facilitando o armazenamento, o processamento e a reprodutibilidade das etapas subsequentes da metodologia.
 
-Cada identidade foi representada por um registro estruturado em formato JSON, contendo os seguintes atributos: um identificador único (id), um nome fictício, o nome do arquivo da imagem facial associada e um campo destinado ao armazenamento da representação vetorial da face (embedding), inicialmente não preenchido. Essa estrutura permite a separação clara entre os dados descritivos da identidade e as informações extraídas automaticamente a partir das imagens faciais.
+Cada identidade foi representada por um registro estruturado em formato JSON, contendo os seguintes atributos: um identificador único (id), um nome fictício, o nome do arquivo da imagem facial associada e um campo destinado ao armazenamento da representação vetorial da face (\textit{embeddings}), inicialmente não preenchido. Essa estrutura permite a separação clara entre os dados descritivos da identidade e as informações extraídas automaticamente a partir das imagens faciais.
 
 Com o intuito de organizar adequadamente os experimentos e evitar sobreposição de identidades entre diferentes fases de avaliação, o cadastro foi dividido em dois arquivos JSON distintos. O primeiro arquivo corresponde ao conjunto de desenvolvimento, contendo as identidades destinadas às etapas de treino, validação e teste. Nesse arquivo, cada registro inclui um atributo adicional que indica a qual subconjunto a identidade pertence (train, validation ou test), respeitando a divisão previamente definida de 240, 30 e 30 identidades, respectivamente.
 
 O segundo arquivo JSON foi destinado exclusivamente ao conjunto de teste final, composto por 100 identidades distintas e não presentes no conjunto de desenvolvimento. Esse conjunto tem como finalidade permitir uma avaliação independente da abordagem proposta, simulando um cenário em que o sistema é exposto a identidades não utilizadas nas fases anteriores do processo experimental.
 
-A adoção de arquivos JSON distintos para o conjunto de desenvolvimento e para o teste final contribui para a organização do fluxo experimental, reduzindo riscos de vazamento de dados entre conjuntos e garantindo maior clareza na definição dos protocolos de avaliação. Além disso, o uso de um formato estruturado e amplamente suportado facilita a integração com os scripts de processamento, extração de embeddings e análise de similaridade empregados nas etapas subsequentes da metodologia.
+A adoção de arquivos JSON distintos para o conjunto de desenvolvimento e para o teste final contribui para a organização do fluxo experimental, reduzindo riscos de vazamento de dados entre conjuntos e garantindo maior clareza na definição dos protocolos de avaliação. Além disso, o uso de um formato estruturado e amplamente suportado facilita a integração com os scripts de processamento, extração de \textit{embeddings} e análise de similaridade empregados nas etapas subsequentes da metodologia.
 
 %---------------------------------------------------------
 
-\section{Extração inicial de características faciais (baseline)}
+\section{Extração inicial de características faciais (\textit{baseline})}
+
+Como etapa inicial do estudo de viabilidade, foi implementada uma abordagem baseada na extração de características geométricas do rosto, utilizando o modelo MediaPipe FaceMesh, com o objetivo de validar o \textit{pipeline} de processamento e estabelecer uma linha de base (\textit{baseline}) para comparação com abordagens mais avançadas de reconhecimento facial. Essa etapa não tem como finalidade propor uma solução final, mas sim verificar a adequação do uso de representações vetoriais e métricas de similaridade no contexto do problema investigado.
+
+Inicialmente, para cada imagem presente no conjunto de desenvolvimento, realizou-se a detecção automática da face por meio de um detector facial. Em seguida, a região facial detectada foi processada pelo modelo MediaPipe FaceMesh, o qual fornece um conjunto denso de pontos característicos (\textit{landmarks}) distribuídos ao longo da face, cada um associado a coordenadas espaciais tridimensionais.
+
+As coordenadas (x, y, z) correspondentes a cada \textit{landmark} foram então concatenadas, formando um vetor numérico de dimensão fixa que representa a geometria facial associada à imagem analisada. Esse vetor passou a ser utilizado como uma representação vetorial inicial da face, sendo armazenado no campo de \textit{embedding} do cadastro de identidades em formato JSON.
+
+A comparação entre diferentes faces foi realizada por meio da aplicação de uma métrica de similaridade entre os vetores gerados, permitindo o cálculo de distâncias entre pares de imagens. Essa abordagem possibilita observar o comportamento das distâncias para identidades iguais e distintas, servindo como referência experimental para a análise posterior de métodos baseados em aprendizado profundo e \textit{embedding} treinados especificamente para reconhecimento facial.
 
 %---------------------------------------------------------
 
 \section{Geração de variações sintéticas das imagens}
 
+Com o objetivo de aumentar a diversidade das amostras disponíveis para cada identidade e simular variações comuns no processo de captura de imagens faciais em ambientes reais, foi realizada a geração de variações sintéticas das imagens originais presentes no conjunto de desenvolvimento. Essa etapa visa tornar o processo de avaliação mais robusto frente a alterações de condições que podem ocorrer em cenários de controle de acesso, como mudanças de iluminação, pequenas variações de pose e degradações na qualidade da imagem.
+
+Para cada imagem facial original associada a uma identidade, foram aplicadas transformações artificiais controladas, resultando na criação de múltiplas amostras derivadas da mesma identidade. As transformações empregadas incluem operações geométricas, como rotações leves e ajustes de escala, bem como transformações fotométricas, como variações de brilho, contraste e saturação. Adicionalmente, foram aplicadas técnicas de degradação da imagem, incluindo a inserção de ruído e a aplicação de filtros de desfoque, com o objetivo de simular condições adversas de captura.
+
+As imagens geradas por meio desse processo foram armazenadas em um diretório específico, mantendo-se a associação com o identificador da identidade original. Para refletir essa ampliação do conjunto de dados, foi criado um novo arquivo JSON contendo múltiplos registros por identidade, cada um referenciando uma variação distinta da imagem facial, preservando-se o mesmo identificador único (id). Dessa forma, todas as variações de uma mesma identidade são tratadas como amostras positivas associadas a um único indivíduo.
+
+A geração dessas variações sintéticas é particularmente relevante no contexto de abordagens baseadas em aprendizado de representações em espaço métrico, nas quais se busca reduzir a distância entre diferentes amostras da mesma identidade e aumentar a separação em relação a amostras de identidades distintas. Embora nesta etapa não seja realizado treinamento de redes neurais, o conjunto de imagens gerado fornece subsídios adequados para avaliar o comportamento de \textit{embeddings} faciais frente a variações de uma mesma identidade, conceito central em estratégias inspiradas em funções de perda do tipo \textit{triplet loss}.
+
 %---------------------------------------------------------
 
-\section{Extração de embeddings faciais por modelo pré-treinado}
+\section{Extração de \textit{embeddings} faciais por modelo pré-treinado}
+
+Após a geração das variações sintéticas das imagens faciais, procedeu-se à extração de \textit{embeddings} faciais por meio de um modelo de reconhecimento facial pré-treinado baseado em aprendizado profundo. Essa etapa tem como objetivo representar cada face em um espaço vetorial no qual identidades iguais apresentem maior proximidade entre si, enquanto identidades distintas sejam mapeadas para regiões mais distantes, característica essencial para sistemas de reconhecimento facial baseados em métricas de similaridade.
+
+Para essa finalidade, foi adotado um modelo amplamente utilizado na literatura e em aplicações práticas de reconhecimento facial, treinado previamente em grandes bases de dados de faces. O modelo empregado segue a filosofia de aprendizado de representações em espaço métrico, sendo treinado com funções de perda do tipo \textit{margin-based}, conceitualmente relacionadas à \textit{triplet loss}, cujo objetivo é maximizar a separação entre diferentes identidades e reduzir a distância entre amostras da mesma identidade.
+
+Cada imagem presente no conjunto de dados ampliado foi processada individualmente pelo modelo, sendo inicialmente realizada a detecção da face e, em seguida, a extração do vetor de características correspondente. O \textit{embedding} resultante consiste em um vetor numérico de dimensão fixa, capaz de capturar características discriminativas da face, de forma robusta a variações de iluminação, expressão facial e pequenas alterações de pose.
+
+Os \textit{embeddings} extraídos foram associados às respectivas identidades e armazenados no cadastro estruturado em formato JSON, substituindo o campo previamente reservado para a representação vetorial. Esse procedimento permitiu a construção de uma base de dados composta por múltiplas representações vetoriais por identidade, viabilizando a comparação entre amostras da mesma identidade e de identidades distintas nas etapas subsequentes da metodologia.
 
 %---------------------------------------------------------
 
 \section{Definição da métrica de similaridade}
 
+Com os \textit{embeddings} faciais extraídos e associados às respectivas identidades, definiu-se o método para quantificar a similaridade entre diferentes representações vetoriais. Essa etapa é fundamental em sistemas de reconhecimento facial baseados em aprendizado métrico, nos quais a decisão de correspondência entre identidades é realizada a partir da distância entre \textit{embeddings} no espaço vetorial.
+
+Neste trabalho, foi adotada a métrica de distância cosseno para a comparação entre pares de \textit{embeddings} faciais. Essa métrica avalia o ângulo entre dois vetores, sendo amplamente utilizada em aplicações de reconhecimento facial por apresentar bom desempenho na comparação de vetores normalizados e por ser menos sensível à magnitude absoluta dos \textit{embeddings}. A distância cosseno permite, assim, mensurar o grau de similaridade entre duas amostras faciais de forma consistente.
+
+A partir da métrica de similaridade definida, estabeleceu-se um limiar de decisão (\textit{threshold}) para determinar se dois \textit{embeddings} correspondem à mesma identidade ou a identidades distintas. Distâncias inferiores ao limiar são interpretadas como correspondências positivas, enquanto distâncias superiores indicam não correspondência. A definição desse limiar é tratada como um parâmetro experimental, cuja adequação é avaliada por meio de análises quantitativas descritas nas etapas subsequentes da metodologia.
+
+Esse procedimento reflete diretamente o princípio das abordagens inspiradas em redes siamesas e funções de perda do tipo triplet loss, nas quais o aprendizado visa estruturar o espaço de \textit{embeddings} de modo que amostras da mesma identidade apresentem distâncias reduzidas, enquanto amostras de identidades diferentes sejam separadas por distâncias maiores, possibilitando decisões baseadas em métricas de similaridade.
+
 %---------------------------------------------------------
 
 \section{Protocolo experimental de avaliação}
+
+O protocolo experimental adotado neste trabalho tem como finalidade avaliar o comportamento das representações faciais no espaço de \textit{embeddings} e verificar a capacidade da abordagem proposta em distinguir identidades distintas por meio de métricas de similaridade. Para isso, foram definidas estratégias de comparação entre amostras faciais, bem como métricas quantitativas para análise do desempenho do sistema, sem a realização de ajustes ou treinamentos adicionais dos modelos empregados.
+
+As comparações foram organizadas a partir da definição de dois tipos de pares. Os pares genuínos correspondem a comparações entre amostras pertencentes à mesma identidade, incluindo imagens originais e variações sintéticas associadas a um mesmo identificador. Já os pares impostores correspondem a comparações entre amostras de identidades distintas. Essa distinção permite analisar o comportamento das distâncias de similaridade tanto em situações de correspondência legítima quanto em tentativas de correspondência indevida.
+
+Para cada par de amostras, foi calculada a distância entre os \textit{embeddings} faciais utilizando a métrica definida na etapa anterior. A partir dessas distâncias, avaliou-se o impacto de diferentes valores do limiar de decisão (\textit{threshold}) na classificação das comparações como correspondências positivas ou negativas. Esse procedimento possibilita observar como variações no limiar influenciam o comportamento do sistema frente a pares genuínos e impostores.
+
+Como métricas de avaliação, foram consideradas a taxa de falsa aceitação (\textit{False Acceptance Rate} - FAR) e a taxa de falsa rejeição (\textit{False Rejection Rate} - FRR). Essas métricas são amplamente utilizadas em sistemas biométricos e permitem caracterizar o compromisso entre segurança e usabilidade, aspecto fundamental em aplicações de controle de acesso. A análise conjunta dessas métricas fornece subsídios para a avaliação da separabilidade das identidades no espaço de \textit{embeddings} e para a definição de critérios de viabilidade da abordagem estudada.
+
+Esse protocolo experimental foi aplicado tanto à abordagem inicial baseada em características geométricas quanto à abordagem baseada em \textit{embeddings} extraídos por modelo pré-treinado, permitindo uma avaliação consistente do comportamento das diferentes representações faciais consideradas neste estudo.
 
 %---------------------------------------------------------
 

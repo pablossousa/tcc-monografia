@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.9)  28 JAN 2026 18:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.9)  29 JAN 2026 00:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -827,11 +827,28 @@ LaTeX Warning: Hyper reference `acro:JSON' on page 9 undefined on input line 6.
 
 LaTeX Warning: Hyper reference `acro:JSON' on page 9 undefined on input line 6.
 
+
+LaTeX Warning: Hyper reference `acro:FAR' on page 9 undefined on input line 7.
+
+
+LaTeX Warning: Hyper reference `acro:FAR' on page 9 undefined on input line 7.
+
+
+LaTeX Warning: Hyper reference `acro:FRR' on page 9 undefined on input line 8.
+
+
+LaTeX Warning: Hyper reference `acro:FRR' on page 9 undefined on input line 8.
+
 )
 
 [9
 
-] (main.toc)
+] (main.toc
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 19.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 11.39996pt on input line 19.
+)
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -869,7 +886,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has b
 l.1 \chapter
             {Fundamentação Teórica} [3]
 Cap\'{\i }tulo 2.
-<Imagens/Stack.png, id=235, 1328.965pt x 713.66624pt>
+<Imagens/Stack.png, id=238, 1328.965pt x 713.66624pt>
 File: Imagens/Stack.png Graphic file (type png)
 <use Imagens/Stack.png>
 Package pdftex.def Info: Imagens/Stack.png  used on input line 8.
@@ -922,38 +939,48 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has b
 <to be read again> 
                    \relax 
 l.28 
-      [7]) (2-Textual/5-Resultados-Discussoes.tex
+      [7]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Resultados} [8]
-Cap\'{\i }tulo 4.
-) (2-Textual/6-Conclusao.tex
+l.42 
+      [8]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Conclusão} [9
-
-]
-Cap\'{\i }tulo 5.
-)
+l.55 A
+       geração dessas variações sintéticas é particularmente relevante... [9]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 \postextual
-                 [10
+l.68 
+      [10]
+
+[11]
+
+[12]) (2-Textual/5-Resultados-Discussoes.tex
+
+[13]
+Cap\'{\i }tulo 4.
+) (2-Textual/6-Conclusao.tex
+
+[14
+
+]
+Cap\'{\i }tulo 5.
+)
+
+[15
 
 ]
 
-[11
+[16
 
 
 
@@ -973,17 +1000,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22393 strings out of 468133
- 406306 string characters out of 5430713
- 1395089 words of memory out of 5000000
- 50591 multiletter control sequences out of 15000+600000
- 645493 words of font info for 62 fonts, out of 8000000 for 9000
+ 22408 strings out of 468133
+ 406421 string characters out of 5430713
+ 1395239 words of memory out of 5000000
+ 50597 multiletter control sequences out of 15000+600000
+ 648349 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,11n,93p,776b,4312s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\pablo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (24 pages, 218868 bytes).
+ 93i,11n,93p,807b,4312s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\pablo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (29 pages, 239314 bytes).
 PDF statistics:
- 370 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
  190 words of extra memory for PDF output out of 10000 (max. 10000000)
 
