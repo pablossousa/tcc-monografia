@@ -1,6 +1,15 @@
 \chapter{Metodologia}
 
-Este trabalho adota uma metodologia experimental com o objetivo de avaliar a viabilidade tecnológica do uso de reconhecimento facial como alternativa ao controle de acesso baseado em cartões \acs{NFC}, no contexto acadêmico. A abordagem proposta fundamenta-se no conceito de aprendizado de representações em um espaço métrico, amplamente discutido na literatura de aprendizado profundo, em especial nas estratégias baseadas em redes siamesas e funções de perda do tipo \textit{triplet loss}, conforme apresentado por Andrew Ng. 
+Este trabalho adota uma metodologia experimental com o objetivo de avaliar a viabilidade tecnológica do uso de reconhecimento facial como alternativa ao controle de acesso baseado em cartões \acs{NFC}, no contexto acadêmico. A abordagem proposta fundamenta-se no conceito de aprendizado de representações em um espaço métrico, amplamente discutido na literatura de aprendizado profundo, em especial nas estratégias baseadas em redes siamesas e funções de perda do tipo \textit{triplet loss}, conforme apresentado por Andrew Ng. A ~\ref{fig:diagrama1} apresenta uma visão geral do pipeline metodológico adotado neste trabalho, destacando as principais etapas do processo, desde a aquisição das imagens faciais até a validação do reconhecimento para controle de acesso.
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{1.0\textwidth}
+        \caption{\label{fig:diagrama1} Pipeline metodológico adotado.}
+        \includegraphics[width=\textwidth]{Imagens/diagramaBlocos.png}
+        \caption*{\footnotesize Fonte: Elaborado pelo autor, 2026.}
+    \end{minipage}
+\end{figure}
 
 Nesse contexto, busca-se verificar se \textit{embeddings} faciais extraídos por modelos de reconhecimento permitem a separação adequada entre diferentes identidades por meio de métricas de similaridade, possibilitando decisões confiáveis de autenticação e identificação. Considerando as restrições éticas e de privacidade associadas ao uso de dados biométricos reais, a metodologia emprega uma base de dados sintética e segue um conjunto estruturado de etapas, descritas a seguir, de forma a garantir reprodutibilidade e clareza na avaliação da abordagem proposta.
 
@@ -48,7 +57,42 @@ A comparação entre diferentes faces foi realizada por meio da aplicação de u
 
 Com o objetivo de aumentar a diversidade das amostras disponíveis para cada identidade e simular variações comuns no processo de captura de imagens faciais em ambientes reais, foi realizada a geração de variações sintéticas das imagens originais presentes no conjunto de desenvolvimento. Essa etapa visa tornar o processo de avaliação mais robusto frente a alterações de condições que podem ocorrer em cenários de controle de acesso, como mudanças de iluminação, pequenas variações de pose e degradações na qualidade da imagem.
 
-Para cada imagem facial original associada a uma identidade, foram aplicadas transformações artificiais controladas, resultando na criação de múltiplas amostras derivadas da mesma identidade. As transformações empregadas incluem operações geométricas, como rotações leves e ajustes de escala, bem como transformações fotométricas, como variações de brilho, contraste e saturação. Adicionalmente, foram aplicadas técnicas de degradação da imagem, incluindo a inserção de ruído e a aplicação de filtros de desfoque, com o objetivo de simular condições adversas de captura.
+Para cada imagem facial original associada a uma identidade, foram aplicadas transformações artificiais controladas, resultando na criação de múltiplas amostras derivadas da mesma identidade. As transformações empregadas incluem operações geométricas, como rotações leves e ajustes de escala, bem como transformações fotométricas, como variações de brilho, contraste e saturação. Adicionalmente, foram aplicadas técnicas de degradação da imagem, incluindo a inserção de ruído e a aplicação de filtros de desfoque, com o objetivo de simular condições adversas de captura. A ~\ref{fig:thisperson} ilustra um exemplo de imagem facial original e suas respectivas variações sintéticas, evidenciando o efeito das transformações artificiais aplicadas para uma mesma identidade.
+
+
+\begin{figure}[!htb]
+\centering
+\caption{\label{fig:thisperson} Variações sintéticas de uma identidade facial.}
+
+\begin{tabular}{@{}cc@{}}
+\begin{subfigure}[t]{0.32\textwidth}
+\centering
+\includegraphics[width=\linewidth]{Imagens/face1.jpg}
+\caption{Imagem original}
+\end{subfigure}
+&
+\begin{subfigure}[t]{0.32\textwidth}
+\centering
+\includegraphics[width=\linewidth]{Imagens/face2.jpg}
+\caption{Variação 1}
+\end{subfigure}
+\\[2mm]
+\begin{subfigure}[t]{0.32\textwidth}
+\centering
+\includegraphics[width=\linewidth]{Imagens/face3.jpg}
+\caption{Variação 2}
+\end{subfigure}
+&
+\begin{subfigure}[t]{0.32\textwidth}
+\centering
+\includegraphics[width=\linewidth]{Imagens/face4.jpg}
+\caption{Variação 3}
+\end{subfigure}
+\end{tabular}
+
+\caption*{\footnotesize Fonte: Elaborado pelo autor a partir de imagens sintéticas do projeto \textit{This Person Does Not Exist}, 2026}
+\end{figure}
+
 
 As imagens geradas por meio desse processo foram armazenadas em um diretório específico, mantendo-se a associação com o identificador da identidade original. Para refletir essa ampliação do conjunto de dados, foi criado um novo arquivo JSON contendo múltiplos registros por identidade, cada um referenciando uma variação distinta da imagem facial, preservando-se o mesmo identificador único (id). Dessa forma, todas as variações de uma mesma identidade são tratadas como amostras positivas associadas a um único indivíduo.
 
@@ -76,7 +120,16 @@ Neste trabalho, foi adotada a métrica de distância cosseno para a comparação
 
 A partir da métrica de similaridade definida, estabeleceu-se um limiar de decisão (\textit{threshold}) para determinar se dois \textit{embeddings} correspondem à mesma identidade ou a identidades distintas. Distâncias inferiores ao limiar são interpretadas como correspondências positivas, enquanto distâncias superiores indicam não correspondência. A definição desse limiar é tratada como um parâmetro experimental, cuja adequação é avaliada por meio de análises quantitativas descritas nas etapas subsequentes da metodologia.
 
-Esse procedimento reflete diretamente o princípio das abordagens inspiradas em redes siamesas e funções de perda do tipo triplet loss, nas quais o aprendizado visa estruturar o espaço de \textit{embeddings} de modo que amostras da mesma identidade apresentem distâncias reduzidas, enquanto amostras de identidades diferentes sejam separadas por distâncias maiores, possibilitando decisões baseadas em métricas de similaridade.
+Esse procedimento reflete diretamente o princípio das abordagens inspiradas em redes siamesas e funções de perda do tipo triplet loss, nas quais o aprendizado visa estruturar o espaço de \textit{embeddings} de modo que amostras da mesma identidade apresentem distâncias reduzidas, enquanto amostras de identidades diferentes sejam separadas por distâncias maiores, possibilitando decisões baseadas em métricas de similaridade. A ~\ref{fig:triplet} ilustra, de forma conceitual, a organização do espaço de \textit{embeddings} em abordagens baseadas em aprendizado métrico.
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{1.0\textwidth}
+        \caption{\label{fig:triplet} Espaço de \textit{embeddings} antes e após o aprendizado.}
+        \includegraphics[width=\textwidth]{Imagens/triplet.png}
+        \caption*{\footnotesize Fonte: Elaborado pelo autor, 2026.}
+    \end{minipage}
+\end{figure}
 
 %---------------------------------------------------------
 
@@ -92,6 +145,4 @@ Como métricas de avaliação, foram consideradas a taxa de falsa aceitação (\
 
 Esse protocolo experimental foi aplicado tanto à abordagem inicial baseada em características geométricas quanto à abordagem baseada em \textit{embeddings} extraídos por modelo pré-treinado, permitindo uma avaliação consistente do comportamento das diferentes representações faciais consideradas neste estudo.
 
-%---------------------------------------------------------
-
-\section{Procedimento de validação da viabilidade}
+ 

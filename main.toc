@@ -18,10 +18,9 @@
 \contentsline {section}{\numberline {3.2}Modelagem do cadastro de identidades}{7}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Extração inicial de características faciais (\textit {baseline})}{8}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Geração de variações sintéticas das imagens}{9}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Extração de \textit {embeddings} faciais por modelo pré-treinado}{10}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Definição da métrica de similaridade}{11}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Protocolo experimental de avaliação}{12}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Procedimento de validação da viabilidade}{13}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Resultados}{14}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusão}{15}{chapter.5}%
-\contentsline {chapter}{\numberline {}Refer\^encias}{16}{section*.13}%
+\contentsline {section}{\numberline {3.5}Extração de \textit {embeddings} faciais por modelo pré-treinado}{11}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Definição da métrica de similaridade}{12}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Protocolo experimental de avaliação}{13}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Resultados}{15}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusão}{16}{chapter.5}%
+\contentsline {chapter}{\numberline {}Refer\^encias}{17}{section*.16}%
