@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1769745630.27477 "main.bcf" "main.bbl" "main" 1769749181.70568 0
-  "Referencias.bib" 1769203940 1605 74bd18f0406bfb08a016cca67c91fc87 ""
-  "main.bcf" 1769749181 114794 b7a54b8f15a31a755accdde86641a894 "pdflatex"
+["biber main"] 1769834935.22052 "main.bcf" "main.bbl" "main" 1769834942.6573 0
+  "Referencias.bib" 1769834685 4560 aaf4ae969272628adc872ce97108adee ""
+  "main.bcf" 1769834942 116612 12529131937b2e2069def6506efdb5b7 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1769749179.60527 "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" "main.pdf" "main" 1769749181.70636 0
+["pdflatex"] 1769834939.78289 "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" "main.pdf" "main" 1769834942.6585 0
   "./Pacotes/CEFET.sty" 1769203940 9831 d89539233a40e6dde1eb50159658e721 ""
   "./Pacotes/biblatex-abnt/latex/bbx/abnt.bbx" 1769203940 71996 11dbc19d4619916cb1bbe9955f3bd32b ""
   "./Pacotes/biblatex-abnt/latex/cbx/abnt.cbx" 1769203940 23085 0d6fa66ecdb71036cb7075216ea01753 ""
@@ -22,13 +22,14 @@
   "2-Textual/1-Introducao.tex" 1769570586 4103 c13e558dcc7a3a1fd6a9759f51253e98 ""
   "2-Textual/2-Fundamentacao-Teorica.tex" 1769549944 596 c70e7250340be0aed1d65eabb92a21ed ""
   "2-Textual/3-Trabalhos-Relacionados.tex" 1769550061 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "2-Textual/4-Metodologia.tex" 1769749179 19336 cca823613265f68652cf9b661eacf693 ""
+  "2-Textual/4-Metodologia.tex" 1769834931 19988 c3af42c6a11c7d819faf670bd569f73a ""
   "2-Textual/5-Resultados-Discussoes.tex" 1769549338 102 40f833630093123107cdd3a8e2f7d72e ""
   "2-Textual/6-Conclusao.tex" 1769549385 104 ea35aa375a0682683ad3fe0aebb6c04e ""
   "C:/Users/pablo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769204515 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/pablo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk" 1769204518 24152 958102d012cc0f17842b3b198b51376e ""
   "C:/Users/pablo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1757417260 13257342 f6870a8c7a468d800fc6cf1ee2bcc842 ""
   "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
+  "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvb8c.tfm" 1136783054 1344 2b79eb16daca0e8fd7cff8a5505df513 ""
   "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136783054 4484 b828043cbd581d289d955903c1339981 ""
   "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvb8t.tfm" 1136783054 6628 34c39492c0adc454c1c199922bba8363 ""
   "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvbo8r.tfm" 1136783054 4736 423eba67d4e9420ec9df4a8def143b08 ""
@@ -54,6 +55,7 @@
   "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb" 1136864148 39013 e6ce984d70e653b894670e538a7f0667 ""
   "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb" 1136864148 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
   "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb" 1136864148 48169 065450055814ce4dfc30f7922d24ab30 ""
+  "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/helvetic/phvb8c.vf" 1136783054 3556 3cfa31ac840d0397f6de5205a61de842 ""
   "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/helvetic/phvb8t.vf" 1136783054 2340 0efed6a948c3c37d870e4e7ddb85c7c3 ""
   "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/helvetic/phvbo8t.vf" 1136783054 2344 88834f8322177295b0266ecc4b0754c3 ""
   "C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/helvetic/phvr8c.vf" 1136783054 3556 570286160ebfdd10d887aaa718e2e64d ""
@@ -162,14 +164,14 @@
   "Pacotes/biblatex-abnt/latex/lbx/brazilian-abnt.lbx" 1769203940 16916 77844ace0a4cc28abb22b44920384ebf ""
   "Pacotes/biblatex-abnt/latex/lbx/english-abnt.lbx" 1769203940 6003 7b0b6b4c54006187171c040d00e2752b ""
   "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" 1769745630 1975 b213751c2a1c1b595ab59f332157b927 ""
-  "main.aux" 1769749181 6983 b81d5ae06d7cd82381a1af098f073984 "pdflatex"
-  "main.bbl" 1769745632 9851 d014f98ca77af88cee37fc6de7b1b314 "biber main"
-  "main.lof" 1769749181 657 12b62677c80b0ad5406fda4da64c8dec "pdflatex"
-  "main.lot" 1769749181 208 764f12abbc26795c1c3d48b503837057 "pdflatex"
-  "main.out" 1769749181 3689 d020f4d86f77fa8a07d1e4529adac4dd "pdflatex"
-  "main.run.xml" 1769749181 2511 a157f2756a3b163f1977b83d30951c40 "pdflatex"
+  "main.aux" 1769834942 11915 c641a66ea160cd6d7f2c551720864942 "pdflatex"
+  "main.bbl" 1769834937 23572 c41f0fd2c56003813fb84893cc503126 "biber main"
+  "main.lof" 1769834942 657 25c0490dc8881222c90a495856dabeb3 "pdflatex"
+  "main.lot" 1769834942 208 764f12abbc26795c1c3d48b503837057 "pdflatex"
+  "main.out" 1769834942 3689 8c3d3f7426eaa8c1609040387446c080 "pdflatex"
+  "main.run.xml" 1769834942 2511 a157f2756a3b163f1977b83d30951c40 "pdflatex"
   "main.tex" 1769745630 1975 b213751c2a1c1b595ab59f332157b927 ""
-  "main.toc" 1769749181 2031 b1a5e66919cf79fd3e09753441dfa099 "pdflatex"
+  "main.toc" 1769834942 2031 f04c06e3eb6e71e322a6d81bb98d9407 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

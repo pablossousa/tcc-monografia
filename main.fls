@@ -403,6 +403,8 @@ INPUT 2-Textual\5-Resultados-Discussoes.tex
 INPUT .\2-Textual\6-Conclusao.tex
 INPUT .\2-Textual\6-Conclusao.tex
 INPUT 2-Textual\6-Conclusao.tex
+INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8c.tfm
+INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8c.vf
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out

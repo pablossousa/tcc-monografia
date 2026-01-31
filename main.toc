@@ -23,4 +23,4 @@
 \contentsline {section}{\numberline {3.7}Protocolo experimental de avaliação}{13}{section.3.7}%
 \contentsline {chapter}{\numberline {4}Resultados}{15}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Conclusão}{16}{chapter.5}%
-\contentsline {chapter}{\numberline {}Refer\^encias}{17}{section*.16}%
+\contentsline {chapter}{\numberline {}Refer\^encias}{17}{section*.27}%
