@@ -19,6 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{abdullah2021face}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d6654cb1e3a8948cd2c25b794db14d82}{%
+           family={Abdullah},
+           familyi={A\bibinitperiod},
+           given={Ihab\bibnamedelima Amer},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12bc6bd017065bcb5aa94d524b60b9a9}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={Jane\bibnamedelima Jaleel},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bb068657dd16c13d2f386dae42d8025a}
+      \strng{fullhash}{bb068657dd16c13d2f386dae42d8025a}
+      \strng{fullhashraw}{bb068657dd16c13d2f386dae42d8025a}
+      \strng{bibnamehash}{bb068657dd16c13d2f386dae42d8025a}
+      \strng{authorbibnamehash}{bb068657dd16c13d2f386dae42d8025a}
+      \strng{authornamehash}{bb068657dd16c13d2f386dae42d8025a}
+      \strng{authorfullhash}{bb068657dd16c13d2f386dae42d8025a}
+      \strng{authorfullhashraw}{bb068657dd16c13d2f386dae42d8025a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Turkish Journal of Computer and Mathematics Education}
+      \field{number}{10}
+      \field{title}{Face Recognition Using Face Embedding Method}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{pages}{3383\bibrangedash 3394}
+      \range{pages}{12}
+    \endentry
     \entry{anuradha2015brief}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -53,6 +90,79 @@
       \field{year}{2015}
       \field{pages}{319\bibrangedash 324}
       \range{pages}{6}
+    \endentry
+    \entry{ge2018hierarchical}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=62fb5671c0e74fddcf90f994c1f4c896}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Weifeng},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db97d4b30c2b8a27433375bb06a14712}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Weilin},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2427f0c174aefdf3ca1ced6d07e8dde7}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Dengke},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5fc94aeedb97ebd59fa643007fae923}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{39b2a003158d9a3727206f3b27624a17}
+      \strng{fullhash}{63da53351d60d8a4d696fd7af26ca78b}
+      \strng{fullhashraw}{63da53351d60d8a4d696fd7af26ca78b}
+      \strng{bibnamehash}{39b2a003158d9a3727206f3b27624a17}
+      \strng{authorbibnamehash}{39b2a003158d9a3727206f3b27624a17}
+      \strng{authornamehash}{39b2a003158d9a3727206f3b27624a17}
+      \strng{authorfullhash}{63da53351d60d8a4d696fd7af26ca78b}
+      \strng{authorfullhashraw}{63da53351d60d8a4d696fd7af26ca78b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
+      \field{title}{Deep Metric Learning with Hierarchical Triplet Loss}
+      \field{year}{2018}
+    \endentry
+    \entry{mlkit_face_mesh}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6bc28252c14133d21331dc54856c1797}{%
+           family={{Google Developers}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \strng{bibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorbibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authornamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://developers.google.com/ml-kit/vision/face-mesh-detection?hl=pt-br}}
+      \field{note}{acesso em: 31 jan. 2026}
+      \field{title}{{ML Kit Vision – Detecção de Face Mesh}}
+      \field{year}{2026}
     \endentry
     \entry{gunther2017debating}{article}{}{}
       \name{author}{4}{}{%
@@ -106,6 +216,226 @@
       \field{pages}{191\bibrangedash 209}
       \range{pages}{19}
     \endentry
+    \entry{jain2004biometric}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cd01587a47d1084d2adebe55a57d1c5c}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Anil\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67b2bd3f432996932e2f4d365b3c1142}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Arun},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfacee6caa8cda710c98b012e588f6ff}{%
+           family={Prabhakar},
+           familyi={P\bibinitperiod},
+           given={Salil},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{8bee00d230cf00214edf0f521b1d4ec8}
+      \strng{fullhash}{8bee00d230cf00214edf0f521b1d4ec8}
+      \strng{fullhashraw}{8bee00d230cf00214edf0f521b1d4ec8}
+      \strng{bibnamehash}{8bee00d230cf00214edf0f521b1d4ec8}
+      \strng{authorbibnamehash}{8bee00d230cf00214edf0f521b1d4ec8}
+      \strng{authornamehash}{8bee00d230cf00214edf0f521b1d4ec8}
+      \strng{authorfullhash}{8bee00d230cf00214edf0f521b1d4ec8}
+      \strng{authorfullhashraw}{8bee00d230cf00214edf0f521b1d4ec8}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Circuits and Systems for Video Technology}
+      \field{number}{1}
+      \field{title}{An Introduction to Biometric Recognition}
+      \field{volume}{14}
+      \field{year}{2004}
+      \field{pages}{4\bibrangedash 20}
+      \range{pages}{17}
+    \endentry
+    \entry{kaya2019deep}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=159fd60346ff3e71100a0b6c50805716}{%
+           family={Kaya},
+           familyi={K\bibinitperiod},
+           given={Mahmut},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d9ecd71fcc17cb9c99eff1ba4852fad}{%
+           family={Bilge},
+           familyi={B\bibinitperiod},
+           given={Hasan\bibnamedelima Sakir},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{0bb7bc688d6c96762613d72ed546f100}
+      \strng{fullhash}{0bb7bc688d6c96762613d72ed546f100}
+      \strng{fullhashraw}{0bb7bc688d6c96762613d72ed546f100}
+      \strng{bibnamehash}{0bb7bc688d6c96762613d72ed546f100}
+      \strng{authorbibnamehash}{0bb7bc688d6c96762613d72ed546f100}
+      \strng{authornamehash}{0bb7bc688d6c96762613d72ed546f100}
+      \strng{authorfullhash}{0bb7bc688d6c96762613d72ed546f100}
+      \strng{authorfullhashraw}{0bb7bc688d6c96762613d72ed546f100}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Symmetry}
+      \field{number}{9}
+      \field{title}{Deep Metric Learning: A Survey}
+      \field{volume}{11}
+      \field{year}{2019}
+      \field{pages}{1066}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/sym11091066
+      \endverb
+    \endentry
+    \entry{ng2021deeplearning}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdb4d740fc9548d1c32a62103c30169d}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{fullhash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{fullhashraw}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{bibnamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authorbibnamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authornamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authorfullhash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authorfullhashraw}{bdb4d740fc9548d1c32a62103c30169d}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.coursera.org/specializations/deep-learning}}
+      \field{note}{Curso online}
+      \field{title}{Deep Learning Specialization}
+      \field{year}{2021}
+    \endentry
+    \entry{north2020biometric}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=67d0f287c4f37f298ca4b95f260d427d}{%
+           family={North-Samardzic},
+           familyi={N\bibinithyphendelim S\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{67d0f287c4f37f298ca4b95f260d427d}
+      \strng{fullhash}{67d0f287c4f37f298ca4b95f260d427d}
+      \strng{fullhashraw}{67d0f287c4f37f298ca4b95f260d427d}
+      \strng{bibnamehash}{67d0f287c4f37f298ca4b95f260d427d}
+      \strng{authorbibnamehash}{67d0f287c4f37f298ca4b95f260d427d}
+      \strng{authornamehash}{67d0f287c4f37f298ca4b95f260d427d}
+      \strng{authorfullhash}{67d0f287c4f37f298ca4b95f260d427d}
+      \strng{authorfullhashraw}{67d0f287c4f37f298ca4b95f260d427d}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business Ethics}
+      \field{number}{3}
+      \field{title}{Biometric Technology and Ethics: Beyond Security Applications}
+      \field{volume}{167}
+      \field{year}{2020}
+      \field{pages}{433\bibrangedash 450}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/s10551-019-04143-6
+      \endverb
+    \endentry
+    \entry{lgpd2018lei}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ccfe84f6240d870749d406d3b8a7a9df}{%
+           family={{Presidência da República - Casa Civil}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccfe84f6240d870749d406d3b8a7a9df}
+      \strng{fullhash}{ccfe84f6240d870749d406d3b8a7a9df}
+      \strng{fullhashraw}{ccfe84f6240d870749d406d3b8a7a9df}
+      \strng{bibnamehash}{ccfe84f6240d870749d406d3b8a7a9df}
+      \strng{authorbibnamehash}{ccfe84f6240d870749d406d3b8a7a9df}
+      \strng{authornamehash}{ccfe84f6240d870749d406d3b8a7a9df}
+      \strng{authorfullhash}{ccfe84f6240d870749d406d3b8a7a9df}
+      \strng{authorfullhashraw}{ccfe84f6240d870749d406d3b8a7a9df}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm}, acesso em: 30 jan. 2026}
+      \field{note}{Brasil}
+      \field{title}{{Lei Geral de Proteção de Dados Pessoais (LGPD) - Lei nº 13.709/2018}}
+      \field{year}{2018}
+    \endentry
+    \entry{schroff2015facenet}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c62e96f68033a3d3cd4639e35a2de4da}{%
+           family={Schroff},
+           familyi={S\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cbb997a11c6922af719c32863261918}{%
+           family={Kalenichenko},
+           familyi={K\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e9a1d678032dfffb4e871a0f622e030}{%
+           family={Philbin},
+           familyi={P\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{474363fec59aa6cdd11f5b6b8275a8f2}
+      \strng{fullhash}{474363fec59aa6cdd11f5b6b8275a8f2}
+      \strng{fullhashraw}{474363fec59aa6cdd11f5b6b8275a8f2}
+      \strng{bibnamehash}{474363fec59aa6cdd11f5b6b8275a8f2}
+      \strng{authorbibnamehash}{474363fec59aa6cdd11f5b6b8275a8f2}
+      \strng{authornamehash}{474363fec59aa6cdd11f5b6b8275a8f2}
+      \strng{authorfullhash}{474363fec59aa6cdd11f5b6b8275a8f2}
+      \strng{authorfullhashraw}{474363fec59aa6cdd11f5b6b8275a8f2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{title}{FaceNet: A Unified Embedding for Face Recognition and Clustering}
+      \field{year}{2015}
+      \field{pages}{815\bibrangedash 823}
+      \range{pages}{9}
+    \endentry
     \entry{sun2023survey}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=366226530244a0d413fe682ce1031b4b}{%
@@ -157,6 +487,15 @@
       \field{year}{2023}
       \field{pages}{154\bibrangedash 169}
       \range{pages}{16}
+    \endentry
+    \entry{thispersondoesnotexist}{misc}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://thispersondoesnotexist.com/}}
+      \field{note}{Gerador de faces humanas sintéticas com redes neurais (acesso em: 30 jan. 2026)}
+      \field{title}{{ThisPersonDoesNotExist.com – AI Generated Human Faces}}
     \endentry
     \entry{zaharia2012resilient}{inproceedings}{}{}
       \name{author}{9}{}{%

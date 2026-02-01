@@ -305,6 +305,34 @@
       \verb 10.3390/sym11091066
       \endverb
     \endentry
+    \entry{ng2021deeplearning}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdb4d740fc9548d1c32a62103c30169d}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{fullhash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{fullhashraw}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{bibnamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authorbibnamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authornamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authorfullhash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authorfullhashraw}{bdb4d740fc9548d1c32a62103c30169d}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.coursera.org/specializations/deep-learning}}
+      \field{note}{Curso online}
+      \field{title}{Deep Learning Specialization}
+      \field{year}{2021}
+    \endentry
     \entry{north2020biometric}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=67d0f287c4f37f298ca4b95f260d427d}{%

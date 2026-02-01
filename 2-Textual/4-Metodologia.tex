@@ -1,6 +1,8 @@
 \chapter{Metodologia}
 
-Este trabalho adota uma metodologia experimental com o objetivo de avaliar a viabilidade tecnológica do uso de reconhecimento facial como alternativa ao controle de acesso baseado em cartões \acs{NFC}, no contexto acadêmico. A abordagem proposta fundamenta-se no conceito de aprendizado de representações em um espaço métrico, amplamente discutido na literatura de aprendizado profundo, em especial nas estratégias baseadas em redes siamesas e funções de perda do tipo \textit{triplet loss}, conforme apresentado por Andrew Ng \cite{ge2018hierarchical}. A \ref{fig:diagrama1} apresenta uma visão geral do pipeline metodológico adotado neste trabalho, destacando as principais etapas do processo, desde a aquisição das imagens faciais até a validação do reconhecimento para controle de acesso.
+Este trabalho adota uma metodologia experimental com o objetivo de avaliar a viabilidade tecnológica do uso de reconhecimento facial como alternativa ao controle de acesso baseado em cartões \acs{NFC}, no contexto acadêmico do \acs{CEFET-MG}. A abordagem proposta fundamenta-se no paradigma de aprendizado métrico em espaço de \textit{embeddings}, amplamente discutido na literatura de aprendizado profundo, incluindo estratégias baseadas em redes siamesas e funções de perda do tipo \textit{triplet loss}, conforme apresentado por Andrew Ng \cite{ng2021deeplearning}.
+
+A \ref{fig:diagrama1} apresenta uma visão geral do pipeline metodológico adotado neste trabalho, destacando as principais etapas do processo experimental, desde a aquisição das imagens faciais até a avaliação do reconhecimento para fins de controle de acesso.
 
 \begin{figure}[!htb]
     \centering
@@ -21,7 +23,7 @@ A construção da base de dados utilizada neste estudo teve como objetivo viabil
 
 Foram coletadas 400 imagens faciais sintéticas, cada uma representando uma identidade distinta. As imagens foram armazenadas em formato digital e organizadas em diretórios específicos do projeto, adotando-se um padrão de nomenclatura que permitisse a associação direta entre cada imagem e seu respectivo identificador de identidade. A utilização de dados sintéticos assegura que não exista qualquer vínculo com indivíduos reais, eliminando riscos de identificação pessoal e atendendo às diretrizes de privacidade estabelecidas pela \acs{LGPD} \cite{lgpd2018lei}.
 
-Com o objetivo de estruturar adequadamente os experimentos, a base de dados foi particionada em dois conjuntos principais: um conjunto de desenvolvimento, composto por 300 identidades, e um conjunto de teste final, composto por 100 identidades distintas. O conjunto de desenvolvimento foi subdividido em três subconjuntos: treino, validação e teste, contendo, respectivamente, 240, 30 e 30 identidades. Essa divisão visa permitir a avaliação controlada do comportamento do sistema em diferentes fases do processo experimental, além de evitar sobreposição de identidades entre os conjuntos.
+Com o objetivo de estruturar adequadamente os experimentos, a base de dados foi particionada em dois conjuntos principais: um conjunto de desenvolvimento, composto por 300 identidades, e um conjunto de teste final, composto por 100 identidades distintas. O conjunto de desenvolvimento foi subdividido em três subconjuntos, denominados treino, validação e teste, utilizados exclusivamente para organização experimental, construção da base de referência e calibração de limiares, contendo, respectivamente, 240, 30 e 30 identidades. Embora não haja treinamento ou ajuste dos modelos de reconhecimento, essa subdivisão permite a avaliação controlada do comportamento do sistema e evita vazamento de identidades entre diferentes fases do experimento.
 
 Essa organização possibilita a realização de experimentos de reconhecimento facial de forma reprodutível e controlada, simulando um cenário de cadastramento e validação de usuários em sistemas de controle de acesso. A base de dados sintética construída nesta etapa constitui o insumo fundamental para as etapas subsequentes da metodologia, incluindo a extração de características faciais, a geração de \textit{embeddings} e a avaliação da separabilidade entre identidades no espaço métrico \cite{ge2018hierarchical}.
 
@@ -41,7 +43,7 @@ A adoção de arquivos \acs{JSON} distintos para o conjunto de desenvolvimento e
 
 %---------------------------------------------------------
 
-\section{Extração inicial de características faciais (\textit{baseline})}
+\section{Extração inicial de características faciais (baseline)}
 
 Como etapa inicial do estudo de viabilidade, foi implementada uma abordagem baseada na extração de características geométricas do rosto, utilizando o modelo MediaPipe FaceMesh \cite{mlkit_face_mesh}, com o objetivo de validar o \textit{pipeline} de processamento e estabelecer uma linha de base (\textit{baseline}) para comparação com abordagens mais avançadas de reconhecimento facial. Essa etapa não tem como finalidade propor uma solução final, mas sim verificar a adequação do uso de representações vetoriais e métricas de similaridade no contexto do problema investigado.
 
@@ -100,7 +102,7 @@ A geração dessas variações sintéticas é particularmente relevante no conte
 
 %---------------------------------------------------------
 
-\section{Extração de \textit{embeddings} faciais por modelo pré-treinado}
+\section{Extração de embeddings faciais por modelo pré-treinado}
 
 Após a geração das variações sintéticas das imagens faciais, procedeu-se à extração de \textit{embeddings} faciais por meio de um modelo de reconhecimento facial pré-treinado baseado em aprendizado profundo \cite{abdullah2021face}. Essa etapa tem como objetivo representar cada face em um espaço vetorial no qual identidades iguais apresentem maior proximidade entre si, enquanto identidades distintas sejam mapeadas para regiões mais distantes, característica essencial para sistemas de reconhecimento facial baseados em métricas de similaridade \cite{ge2018hierarchical}.
 

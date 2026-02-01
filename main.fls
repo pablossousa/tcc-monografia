@@ -183,6 +183,8 @@ INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.s
 INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
 INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT .\Dados.tex
 INPUT .\Dados.tex
 INPUT .\Dados.tex
@@ -317,10 +319,7 @@ INPUT 1-Pre-Textual\Siglas.tex
 INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
-INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8t.tfm
 OUTPUT main.toc
-INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvbo8t.vf
-INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8r.tfm
 INPUT .\2-Textual\1-Introducao.tex
 INPUT .\2-Textual\1-Introducao.tex
 INPUT 2-Textual\1-Introducao.tex
@@ -400,6 +399,13 @@ INPUT .\Imagens\triplet.png
 INPUT .\2-Textual\5-Resultados-Discussoes.tex
 INPUT .\2-Textual\5-Resultados-Discussoes.tex
 INPUT 2-Textual\5-Resultados-Discussoes.tex
+INPUT .\Imagens\result1.png
+INPUT .\Imagens\result1.png
+INPUT .\Imagens\result1.png
+INPUT .\Imagens\result1.png
+INPUT .\Imagens\result1.png
+INPUT .\Imagens\result1.png
+INPUT .\Imagens\result1.png
 INPUT .\2-Textual\6-Conclusao.tex
 INPUT .\2-Textual\6-Conclusao.tex
 INPUT 2-Textual\6-Conclusao.tex
@@ -416,8 +422,6 @@ INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
-INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvbo8a.pfb
-INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvbo8a.pfb
 INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
 INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
 INPUT C:\Users\pablo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvro8a.pfb
