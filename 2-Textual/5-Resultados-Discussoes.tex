@@ -47,11 +47,12 @@ Para essa avaliação, foram considerados 37.401 pares de comparação, obtidos 
 0.50 & 373 & 32 & 36996 & 0 & 0.086 & 0.000 \\
 \hline
 \end{tabular}
+\caption*{Fonte: Elaborado pelo autor (2026).}
 \end{table}
 
 Os resultados são organizados em termos de quatro categorias: verdadeiros positivos (TP), correspondentes a pares da mesma identidade corretamente aceitos; falsos negativos (FN), pares da mesma identidade incorretamente rejeitados; falsos positivos (FP), pares de identidades diferentes incorretamente aceitos; e verdadeiros negativos (TN), pares de identidades diferentes corretamente rejeitados. A partir dessas quantidades, são calculadas as métricas FAR, definida como a proporção de falsos positivos em relação ao total de pares impostores, e FRR, definida como a proporção de falsos negativos em relação ao total de pares genuínos.
 
-A \ref{table1} apresenta os resultados obtidos para diferentes valores de threshold. Observa-se que, para limiares entre 0,20 e 0,40, o sistema apresentou FAR e FRR iguais a zero, indicando ausência de erros tanto de aceitação indevida quanto de rejeição indevida nesse intervalo. A partir do limiar 0,45, passam a ocorrer falsas aceitações, refletidas no aumento gradual da FAR, enquanto a FRR permanece nula em todos os valores avaliados, indicando que nenhuma comparação genuína foi rejeitada.
+A \ref{tab:table1} apresenta os resultados obtidos para diferentes valores de threshold. Observa-se que, para limiares entre 0,20 e 0,40, o sistema apresentou FAR e FRR iguais a zero, indicando ausência de erros tanto de aceitação indevida quanto de rejeição indevida nesse intervalo. A partir do limiar 0,45, passam a ocorrer falsas aceitações, refletidas no aumento gradual da FAR, enquanto a FRR permanece nula em todos os valores avaliados, indicando que nenhuma comparação genuína foi rejeitada.
 
 Esses resultados evidenciam que o sistema apresenta alta separabilidade entre identidades, permitindo a definição de um limiar de decisão que elimina erros de falsa rejeição e mantém taxas de falsa aceitação extremamente baixas. Essa análise quantitativa fornece subsídios diretos para a escolha do threshold mais adequado, discutida na seção subsequente.
 

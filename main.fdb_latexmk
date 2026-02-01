@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1769916567.3496 "main.bcf" "main.bbl" "main" 1769916792.72265 0
+["biber main"] 1769918236.04884 "main.bcf" "main.bbl" "main" 1769918373.87317 0
   "Referencias.bib" 1769908284 4808 b7ac37424b59452c10c391df409150dd ""
-  "main.bcf" 1769916792 116612 9a99ec714f068dbe3f6436a8ad332d06 "pdflatex"
+  "main.bcf" 1769918373 116612 9a99ec714f068dbe3f6436a8ad332d06 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1769916790.05296 "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" "main.pdf" "main" 1769916792.72329 0
+["pdflatex"] 1769918371.33132 "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" "main.pdf" "main" 1769918373.87383 0
   "./Pacotes/CEFET.sty" 1769203940 9831 d89539233a40e6dde1eb50159658e721 ""
   "./Pacotes/biblatex-abnt/latex/bbx/abnt.bbx" 1769203940 71996 11dbc19d4619916cb1bbe9955f3bd32b ""
   "./Pacotes/biblatex-abnt/latex/cbx/abnt.cbx" 1769203940 23085 0d6fa66ecdb71036cb7075216ea01753 ""
@@ -22,8 +22,8 @@
   "2-Textual/1-Introducao.tex" 1769570586 4103 c13e558dcc7a3a1fd6a9759f51253e98 ""
   "2-Textual/2-Fundamentacao-Teorica.tex" 1769549944 596 c70e7250340be0aed1d65eabb92a21ed ""
   "2-Textual/3-Trabalhos-Relacionados.tex" 1769550061 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "2-Textual/4-Metodologia.tex" 1769913869 20167 1716f4aebe47dcb337ce1757a1a7e2db ""
-  "2-Textual/5-Resultados-Discussoes.tex" 1769916784 6489 a5fa9a9d29f215f1f75d267b9ae6a4ef ""
+  "2-Textual/4-Metodologia.tex" 1769918227 20167 1716f4aebe47dcb337ce1757a1a7e2db ""
+  "2-Textual/5-Resultados-Discussoes.tex" 1769918370 6528 652a068f4ba3fd7414419f1105a49034 ""
   "2-Textual/6-Conclusao.tex" 1769549385 104 ea35aa375a0682683ad3fe0aebb6c04e ""
   "C:/Users/pablo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769204515 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/pablo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk" 1769204518 24152 958102d012cc0f17842b3b198b51376e ""
@@ -162,14 +162,14 @@
   "Pacotes/biblatex-abnt/latex/lbx/brazilian-abnt.lbx" 1769203940 16916 77844ace0a4cc28abb22b44920384ebf ""
   "Pacotes/biblatex-abnt/latex/lbx/english-abnt.lbx" 1769203940 6003 7b0b6b4c54006187171c040d00e2752b ""
   "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" 1769915399 1994 a45c19b43fefdf565b1665c9cadeb6d2 ""
-  "main.aux" 1769916792 14132 4763f1d49342e6c0298903853eaab44d "pdflatex"
-  "main.bbl" 1769916569 24836 53a520a8954181835cb23c32773d5eca "biber main"
-  "main.lof" 1769916792 817 9ca9ae92c9d670e423e67c34bf61119f "pdflatex"
-  "main.lot" 1769916792 411 93e7ee863d6ecee46804ae6c0357ec40 "pdflatex"
-  "main.out" 1769916792 5116 3ff591a2e1ce8184eed1a115627f9a6f "pdflatex"
-  "main.run.xml" 1769916792 2511 a157f2756a3b163f1977b83d30951c40 "pdflatex"
+  "main.aux" 1769918373 14121 3c180afd4f7579771dabc3f8a6882a80 "pdflatex"
+  "main.bbl" 1769918238 24836 53a520a8954181835cb23c32773d5eca "biber main"
+  "main.lof" 1769918373 817 9ca9ae92c9d670e423e67c34bf61119f "pdflatex"
+  "main.lot" 1769918373 411 93e7ee863d6ecee46804ae6c0357ec40 "pdflatex"
+  "main.out" 1769918373 5116 3ff591a2e1ce8184eed1a115627f9a6f "pdflatex"
+  "main.run.xml" 1769918373 2511 a157f2756a3b163f1977b83d30951c40 "pdflatex"
   "main.tex" 1769915399 1994 a45c19b43fefdf565b1665c9cadeb6d2 ""
-  "main.toc" 1769916792 2534 7a2e945ef6638d08285af2ac7ab410cd "pdflatex"
+  "main.toc" 1769918373 2534 7a2e945ef6638d08285af2ac7ab410cd "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
