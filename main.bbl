@@ -56,41 +56,6 @@
       \field{pages}{3383\bibrangedash 3394}
       \range{pages}{12}
     \endentry
-    \entry{anuradha2015brief}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=0071b28afa3e956fb709c3d4e0478ced}{%
-           family={Anuradha},
-           familyi={A\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{b0b265b5c75619ca8704c426206b0ebb}
-      \strng{fullhash}{b0b265b5c75619ca8704c426206b0ebb}
-      \strng{fullhashraw}{b0b265b5c75619ca8704c426206b0ebb}
-      \strng{bibnamehash}{b0b265b5c75619ca8704c426206b0ebb}
-      \strng{authorbibnamehash}{b0b265b5c75619ca8704c426206b0ebb}
-      \strng{authornamehash}{b0b265b5c75619ca8704c426206b0ebb}
-      \strng{authorfullhash}{b0b265b5c75619ca8704c426206b0ebb}
-      \strng{authorfullhashraw}{b0b265b5c75619ca8704c426206b0ebb}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Procedia computer science}
-      \field{title}{A brief introduction on Big Data 5Vs characteristics and Hadoop technology}
-      \field{volume}{48}
-      \field{year}{2015}
-      \field{pages}{319\bibrangedash 324}
-      \range{pages}{6}
-    \endentry
     \entry{ge2018hierarchical}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=62fb5671c0e74fddcf90f994c1f4c896}{%
@@ -436,58 +401,6 @@
       \field{pages}{815\bibrangedash 823}
       \range{pages}{9}
     \endentry
-    \entry{sun2023survey}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=366226530244a0d413fe682ce1031b4b}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Xudong},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=126aa6a16d423464ca9175ad60cbde44}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={Yulin},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b2d602bd8b977af720984fc9f0f4d57e}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Dingming},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f7056507989d6c76fd2aee4f24177f86}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Joshua\bibnamedelima Zhexue},
-           giveni={J\bibinitperiod\bibinitdelim Z\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {TUP}%
-      }
-      \strng{namehash}{eacea8789e1fd960f77e62014f16f4d9}
-      \strng{fullhash}{989203da2ac4612890b79a40186198fc}
-      \strng{fullhashraw}{989203da2ac4612890b79a40186198fc}
-      \strng{bibnamehash}{eacea8789e1fd960f77e62014f16f4d9}
-      \strng{authorbibnamehash}{eacea8789e1fd960f77e62014f16f4d9}
-      \strng{authornamehash}{eacea8789e1fd960f77e62014f16f4d9}
-      \strng{authorfullhash}{989203da2ac4612890b79a40186198fc}
-      \strng{authorfullhashraw}{989203da2ac4612890b79a40186198fc}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Big Data Mining and Analytics}
-      \field{number}{2}
-      \field{title}{Survey of Distributed Computing Frameworks for Supporting Big Data Analysis}
-      \field{volume}{6}
-      \field{year}{2023}
-      \field{pages}{154\bibrangedash 169}
-      \range{pages}{16}
-    \endentry
     \entry{thispersondoesnotexist}{misc}{}{}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
@@ -496,84 +409,6 @@
       \field{howpublished}{\url{https://thispersondoesnotexist.com/}}
       \field{note}{Gerador de faces humanas sintéticas com redes neurais (acesso em: 30 jan. 2026)}
       \field{title}{{ThisPersonDoesNotExist.com – AI Generated Human Faces}}
-    \endentry
-    \entry{zaharia2012resilient}{inproceedings}{}{}
-      \name{author}{9}{}{%
-        {{un=0,uniquepart=base,hash=00dc518b94dfa6349c86e70661a1a5ef}{%
-           family={Zaharia},
-           familyi={Z\bibinitperiod},
-           given={Matei},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c5a8ae0d5f065be17aae440a9eb11c79}{%
-           family={Chowdhury},
-           familyi={C\bibinitperiod},
-           given={Mosharaf},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f8b27ed8b503bc3e7b32fc53bace3697}{%
-           family={Das},
-           familyi={D\bibinitperiod},
-           given={Tathagata},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=aec50de877bd49b0c55f7067c573cd4f}{%
-           family={Dave},
-           familyi={D\bibinitperiod},
-           given={Ankur},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c443d4c28f0cacfebd1b66027cee9098}{%
-           family={Ma},
-           familyi={M\bibinitperiod},
-           given={Justin},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4e01b4afb1abb4bf7986577117903b49}{%
-           family={McCauly},
-           familyi={M\bibinitperiod},
-           given={Murphy},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2b80efa845ff86794acc83783899dcf0}{%
-           family={Franklin},
-           familyi={F\bibinitperiod},
-           given={Michael\bibnamedelima J},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8d2fd528d2484047352789c731e250a5}{%
-           family={Shenker},
-           familyi={S\bibinitperiod},
-           given={Scott},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=51d9ef26181e2e8a9dc546b401e0bb26}{%
-           family={Stoica},
-           familyi={S\bibinitperiod},
-           given={Ion},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{43b7683e391995e2f59755c9e939df3c}
-      \strng{fullhash}{419e5326b1a4ac5ad0664595a4a5551c}
-      \strng{fullhashraw}{419e5326b1a4ac5ad0664595a4a5551c}
-      \strng{bibnamehash}{43b7683e391995e2f59755c9e939df3c}
-      \strng{authorbibnamehash}{43b7683e391995e2f59755c9e939df3c}
-      \strng{authornamehash}{43b7683e391995e2f59755c9e939df3c}
-      \strng{authorfullhash}{419e5326b1a4ac5ad0664595a4a5551c}
-      \strng{authorfullhashraw}{419e5326b1a4ac5ad0664595a4a5551c}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Presented as part of the [...]}
-      \field{eventtitle}{9th $\{$USENIX$\}$ Symposium on Networked Systems Design and Implementation ($\{$NSDI$\}$ 12)}
-      \field{title}{Resilient distributed datasets: A fault-tolerant abstraction for in-memory cluster computing}
-      \field{year}{2012}
-      \field{pages}{15\bibrangedash 28}
-      \range{pages}{14}
     \endentry
   \enddatalist
 \endrefsection

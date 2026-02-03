@@ -39,12 +39,12 @@ Para essa avaliação, foram considerados 37.401 pares de comparação, obtidos 
 \hline
 \textbf{Threshold} & \textbf{TP} & \textbf{FP} & \textbf{TN} & \textbf{FN} & \textbf{FAR (\%)} & \textbf{FRR (\%)} \\
 \hline
-0.20 & 373 & 0  & 37028 & 0 & 0.000 & 0.000 \\
-0.30 & 373 & 0  & 37028 & 0 & 0.000 & 0.000 \\
-0.35 & 373 & 0  & 37028 & 0 & 0.000 & 0.000 \\
-0.40 & 373 & 0  & 37028 & 0 & 0.000 & 0.000 \\
-0.45 & 373 & 2  & 37026 & 0 & 0.005 & 0.000 \\
-0.50 & 373 & 32 & 36996 & 0 & 0.086 & 0.000 \\
+0,20 & 373 & 0  & 37028 & 0 & 0,000 & 0,000 \\
+0,30 & 373 & 0  & 37028 & 0 & 0,000 & 0,000 \\
+0,35 & 373 & 0  & 37028 & 0 & 0,000 & 0,000 \\
+0,40 & 373 & 0  & 37028 & 0 & 0,000 & 0,000 \\
+0,45 & 373 & 2  & 37026 & 0 & 0,005 & 0,000 \\
+0,50 & 373 & 32 & 36996 & 0 & 0,086 & 0,000 \\
 \hline
 \end{tabular}
 \caption*{Fonte: Elaborado pelo autor (2026).}
@@ -60,10 +60,50 @@ Esses resultados evidenciam que o sistema apresenta alta separabilidade entre id
 
 \section{Definição do limiar de decisão (threshold)}
 
+Com base nos resultados apresentados na seção anterior, definiu-se o limiar de decisão (\textit{threshold}) a ser adotado no sistema de reconhecimento facial. A escolha do limiar tem como objetivo equilibrar segurança e confiabilidade, priorizando a redução de falsas aceitações, aspecto crítico em aplicações de controle de acesso.
+
+A análise dos valores avaliados mostrou que, para \textit{thresholds} entre 0,20 e 0,40, o sistema apresentou taxas nulas de falsa aceitação (FAR) e falsa rejeição (FRR). A partir do valor 0,45, passaram a ocorrer falsas aceitações, ainda que em baixa proporção, indicando perda gradual de segurança conforme o limiar é relaxado. Em todos os casos analisados, a FRR permaneceu nula, evidenciando a ausência de rejeições indevidas de pares genuínos.
+
+Diante desses resultados, foi adotado o valor 0,40 como limiar de decisão, por representar o maior valor testado que mantém FAR e FRR iguais a zero, oferecendo maior margem de segurança em relação a valores mais permissivos. Esse limiar foi utilizado nas etapas subsequentes de validação e identificação, servindo como critério para aceitação ou rejeição de correspondências faciais no sistema proposto.
+
 %---------------------------------------------------------
 
 \section{Análise qualitativa dos pares de comparação}
 
+Esta seção apresenta uma análise qualitativa dos resultados obtidos, com o objetivo de complementar as métricas quantitativas discutidas anteriormente por meio da inspeção visual de pares de imagens faciais. Essa análise busca verificar se o comportamento observado nas distâncias entre embeddings é consistente com a percepção visual das imagens comparadas, contribuindo para a validação empírica do sistema.
+
+Foram selecionados exemplos representativos de pares da mesma identidade e de pares de identidades diferentes, considerando o limiar de decisão definido na seção anterior (distância cosseno inferior a 0,40 para correspondência positiva). Nos pares da mesma identidade, são comparadas imagens distintas associadas a um mesmo identificador, incluindo variações sintéticas decorrentes de transformações aplicadas às imagens originais. Nos pares de identidades diferentes, são comparadas imagens pertencentes a indivíduos distintos corretamente rejeitados pelo sistema.
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{1.0\textwidth}
+        \caption{\label{fig:pessoas_iguais} Exemplo de par da mesma identidade corretamente aceitos}
+        \includegraphics[width=\textwidth]{Imagens/pessoas_iguais.png}
+        \caption*{\footnotesize Fonte: Elaborado pelo autor, 2026.}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{1.0\textwidth}
+        \caption{\label{fig:pessoas_diferentes} Exemplo de par de identidades diferentes corretamente rejeitados}
+        \includegraphics[width=\textwidth]{Imagens/pessoas_diferentes.png}
+        \caption*{\footnotesize Fonte: Elaborado pelo autor, 2026.}
+    \end{minipage}
+\end{figure}
+
+As figuras apresentadas evidenciam que, nos casos classificados como pertencentes à mesma identidade, as imagens compartilham características faciais visuais compatíveis, mesmo diante de variações de iluminação, ruído ou pequenas alterações de aparência introduzidas artificialmente. Por outro lado, nos pares de identidades diferentes, observa-se divergência visual clara entre os rostos comparados, coerente com as maiores distâncias no espaço de embeddings e com a decisão de não correspondência adotada pelo sistema.
+
+De forma geral, a análise qualitativa confirma que as decisões baseadas em similaridade no espaço de embeddings refletem adequadamente as diferenças e semelhanças perceptíveis entre as imagens faciais, reforçando a confiabilidade dos resultados quantitativos apresentados nas seções anteriores.
+
 %---------------------------------------------------------
 
 \section{Avaliação do processo de identificação (1 vs N)}
+
+Nesta seção é avaliado o funcionamento do processo de identificação facial no cenário 1 vs N, no qual uma imagem de consulta é comparada com todas as representações faciais armazenadas na base de dados, com o objetivo de determinar a identidade mais semelhante. Essa avaliação tem caráter funcional e demonstra a aplicação prática do critério de similaridade definido nas seções anteriores.
+
+Para o teste realizado, foram consideradas 300 identidades com \textit{embeddings} válidos no conjunto de referência. Uma identidade foi selecionada como consulta, e seu embedding foi comparado com os \textit{embeddings} das demais identidades por meio da distância cosseno. O processo de identificação consistiu em selecionar a identidade que apresentou a menor distância em relação à consulta, caracterizando o candidato mais próximo no espaço de \textit{embeddings}.
+
+Como resultado, a identidade consultada foi associada à identidade mais próxima na base, apresentando uma distância cosseno de 0,0002, valor significativamente inferior ao limiar de decisão adotado. Com base nesse critério, a identidade foi corretamente confirmada pelo sistema, evidenciando que o método de identificação por similaridade é capaz de localizar a representação mais próxima de forma consistente no conjunto avaliado.
+
+Esse experimento demonstra, de forma objetiva, a viabilidade do uso de \textit{embeddings} faciais e métricas de similaridade para identificação automática em um cenário compatível com aplicações de controle de acesso. Embora não constitua uma avaliação estatística completa de desempenho, essa validação funcional complementa os resultados quantitativos apresentados anteriormente, ilustrando o comportamento do sistema em uma situação de uso realista.
