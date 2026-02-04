@@ -9,57 +9,57 @@
 \contentsline {section}{\numberline {1.4}Customização}{2}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Fundamentação Teórica}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Contexto do problema e cenário de aplicação}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}RFID, NFC e cartões de identificação}{4}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}RFID: conceito e funcionamento básico}{4}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}NFC e sua relação com RFID}{4}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Custos e limitações operacionais em ambientes reais}{4}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Vulnerabilidades e riscos em sistemas baseados em cartões}{4}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Fundamentos de biometria aplicada ao controle de acesso}{4}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Conceito de biometria e principais modalidades}{5}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Verificação biométrica (1:1) e identificação biométrica (1:N)}{5}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Critérios de qualidade em sistemas biométricos}{5}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Representação e processamento de imagens digitais}{5}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Imagem digital: definição e características}{5}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Etapas de pré-processamento em imagens faciais}{5}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Representação vetorial e medidas de similaridade}{5}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Conceito de vetor e interpretação geométrica}{5}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Embeddings como representação de características}{6}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Métricas de similaridade e distância}{6}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Limiar de decisão em sistemas de reconhecimento}{6}{subsection.2.5.4}%
-\contentsline {section}{\numberline {2.6}Aprendizado métrico: redes siamesas e Triplet Loss}{6}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Classificação tradicional e aprendizado métrico}{6}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Redes siamesas}{6}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Função de perda Triplet Loss}{6}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Aplicação do aprendizado métrico ao reconhecimento facial}{6}{subsection.2.6.4}%
-\contentsline {section}{\numberline {2.7}Modelos pré-treinados e reconhecimento facial por embeddings}{7}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Aprendizado por transferência e modelos pré-treinados}{7}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Embeddings discriminativos para reconhecimento facial}{7}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Detecção facial e reconhecimento facial}{7}{subsection.2.7.3}%
-\contentsline {section}{\numberline {2.8}Avaliação biométrica: FAR, FRR e trade-off entre segurança e usabilidade}{7}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}Matriz de confusão}{7}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}Taxas de erro biométrico: FAR e FRR}{7}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}Definição do limiar de decisão em sistemas reais}{7}{subsection.2.8.3}%
-\contentsline {section}{\numberline {2.9}Privacidade, LGPD e uso de dados sintéticos}{8}{section.2.9}%
-\contentsline {subsection}{\numberline {2.9.1}Dados biométricos e sua sensibilidade}{8}{subsection.2.9.1}%
-\contentsline {subsection}{\numberline {2.9.2}Aspectos gerais da LGPD aplicados à biometria}{8}{subsection.2.9.2}%
-\contentsline {subsection}{\numberline {2.9.3}Uso de imagens faciais sintéticas em experimentos}{8}{subsection.2.9.3}%
-\contentsline {section}{\numberline {2.10}Segurança na comunicação e criptografia aplicada}{8}{section.2.10}%
-\contentsline {subsection}{\numberline {2.10.1}Ameaças em sistemas de comunicação}{8}{subsection.2.10.1}%
-\contentsline {subsection}{\numberline {2.10.2}Conceitos fundamentais de criptografia}{8}{subsection.2.10.2}%
-\contentsline {subsection}{\numberline {2.10.3}TLS, HTTPS e autenticação mútua}{8}{subsection.2.10.3}%
-\contentsline {chapter}{\numberline {3}Metodologia}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Construção da base de dados sintética}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Modelagem do cadastro de identidades}{11}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Extração inicial de características faciais (baseline)}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Geração de variações sintéticas das imagens}{12}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Extração de embeddings faciais por modelo pré-treinado}{14}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Definição da métrica de similaridade}{15}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Protocolo experimental de avaliação}{16}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Resultados}{18}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Separabilidade no espaço de embeddings}{18}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Avaliação biométrica por FAR e FRR}{19}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Definição do limiar de decisão (threshold)}{21}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Análise qualitativa dos pares de comparação}{21}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Avaliação do processo de identificação (1 vs N)}{23}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Conclusão}{25}{chapter.5}%
-\contentsline {chapter}{\numberline {}Refer\^encias}{26}{section*.32}%
+\contentsline {section}{\numberline {2.2}RFID, NFC e cartões de identificação}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}RFID: conceito e funcionamento básico}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}NFC e sua relação com RFID}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Custos e limitações operacionais em ambientes reais}{6}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Vulnerabilidades e riscos em sistemas baseados em cartões}{7}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Fundamentos de biometria aplicada ao controle de acesso}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Conceito de biometria e principais modalidades}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Verificação biométrica (1:1) e identificação biométrica (1:N)}{8}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Critérios de qualidade em sistemas biométricos}{9}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Representação e processamento de imagens digitais}{9}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Imagem digital: definição e características}{9}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Etapas de pré-processamento em imagens faciais}{10}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Representação vetorial e medidas de similaridade}{10}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Conceito de vetor e interpretação geométrica}{11}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Embeddings como representação de características}{11}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Métricas de similaridade e distância}{12}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Limiar de decisão em sistemas de reconhecimento}{12}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.6}Aprendizado métrico: redes siamesas e Triplet Loss}{13}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Classificação tradicional e aprendizado métrico}{13}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Redes siamesas}{14}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Função de perda Triplet Loss}{14}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Aplicação do aprendizado métrico ao reconhecimento facial}{15}{subsection.2.6.4}%
+\contentsline {section}{\numberline {2.7}Modelos pré-treinados e reconhecimento facial por embeddings}{15}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Aprendizado por transferência e modelos pré-treinados}{16}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Embeddings discriminativos para reconhecimento facial}{16}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Detecção facial e reconhecimento facial}{17}{subsection.2.7.3}%
+\contentsline {section}{\numberline {2.8}Avaliação biométrica: FAR, FRR e trade-off entre segurança e usabilidade}{17}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Matriz de confusão}{17}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Taxas de erro biométrico: FAR e FRR}{18}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Definição do limiar de decisão em sistemas reais}{18}{subsection.2.8.3}%
+\contentsline {section}{\numberline {2.9}Privacidade, LGPD e uso de dados sintéticos}{19}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Dados biométricos e sua sensibilidade}{19}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Aspectos gerais da LGPD aplicados à biometria}{20}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.9.3}Uso de imagens faciais sintéticas em experimentos}{20}{subsection.2.9.3}%
+\contentsline {section}{\numberline {2.10}Segurança na comunicação e criptografia aplicada}{20}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Ameaças em sistemas de comunicação}{21}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.2}Conceitos fundamentais de criptografia}{21}{subsection.2.10.2}%
+\contentsline {subsection}{\numberline {2.10.3}TLS, HTTPS e autenticação mútua}{22}{subsection.2.10.3}%
+\contentsline {chapter}{\numberline {3}Metodologia}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Construção da base de dados sintética}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modelagem do cadastro de identidades}{25}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Extração inicial de características faciais (baseline)}{26}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Geração de variações sintéticas das imagens}{26}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Extração de embeddings faciais por modelo pré-treinado}{28}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Definição da métrica de similaridade}{29}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Protocolo experimental de avaliação}{30}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Resultados}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Separabilidade no espaço de embeddings}{32}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Avaliação biométrica por FAR e FRR}{33}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Definição do limiar de decisão (threshold)}{35}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Análise qualitativa dos pares de comparação}{35}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Avaliação do processo de identificação (1 vs N)}{37}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Conclusão}{39}{chapter.5}%
+\contentsline {chapter}{\numberline {}Refer\^encias}{40}{section*.88}%

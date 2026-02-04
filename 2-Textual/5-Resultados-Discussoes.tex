@@ -6,30 +6,30 @@ Este capítulo apresenta os resultados obtidos a partir dos experimentos realiza
 
 \section{Separabilidade no espaço de embeddings}
 
-Esta seção analisa a separabilidade das representações faciais no espaço de embeddings a partir da distribuição das distâncias cosseno calculadas entre pares de imagens. O objetivo é verificar se amostras da mesma identidade apresentam maior similaridade entre si do que amostras pertencentes a identidades distintas.
+Esta seção analisa a separabilidade das representações faciais no espaço de \textit{embeddings} a partir da distribuição das distâncias cosseno calculadas entre pares de imagens. O objetivo é verificar se amostras da mesma identidade apresentam maior similaridade entre si do que amostras pertencentes a identidades distintas.
 
 Para isso, todas as combinações possíveis de pares foram comparadas e classificadas em dois grupos: pares da mesma identidade, formados por imagens diferentes associadas ao mesmo identificador, e pares de identidades diferentes, formados por imagens pertencentes a indivíduos distintos. No experimento realizado, foram obtidos 373 pares da mesma identidade e 37.028 pares de identidades diferentes. Essa diferença numérica é esperada, uma vez que o número de pares impostores cresce de forma combinatória quando se consideram todas as combinações entre identidades distintas, enquanto os pares genuínos dependem apenas do número de variações disponíveis por identidade.
 
 \begin{figure}[H]
     \centering
     \begin{minipage}{1.0\textwidth}
-        \caption{\label{fig:result1} Distribuição das distâncias cosseno no espaço de embeddings}
+        \caption{\label{fig:result1} Distribuição das distâncias cosseno no espaço de \textit{embeddings}}
         \includegraphics[width=\textwidth]{Imagens/result1.png}
         \caption*{\footnotesize Fonte: Elaborado pelo autor, 2026.}
     \end{minipage}
 \end{figure}
 
-A \ref{fig:result1} apresenta a distribuição das distâncias cosseno para ambos os grupos. Observa-se que os pares da mesma identidade concentram-se em valores menores de distância, enquanto os pares de identidades diferentes apresentam distâncias predominantemente maiores, indicando separação entre os grupos no espaço de embeddings. O limiar de referência de 0,4 é exibido apenas como apoio visual, ilustrando a região em que ocorreria a decisão de correspondência, sem ser utilizado nesta etapa para classificação.
+A \ref{fig:result1} apresenta a distribuição das distâncias cosseno para ambos os grupos. Observa-se que os pares da mesma identidade concentram-se em valores menores de distância, enquanto os pares de identidades diferentes apresentam distâncias predominantemente maiores, indicando separação entre os grupos no espaço de \textit{embeddings}. O limiar de referência de 0,4 é exibido apenas como apoio visual, ilustrando a região em que ocorreria a decisão de correspondência, sem ser utilizado nesta etapa para classificação.
 
-De forma geral, os resultados indicam que o espaço de embeddings apresenta separabilidade adequada entre identidades, constituindo a base para as análises quantitativas de desempenho apresentadas a seguir.
+De forma geral, os resultados indicam que o espaço de \textit{embeddings} apresenta separabilidade adequada entre identidades, constituindo a base para as análises quantitativas de desempenho apresentadas a seguir.
 
 %---------------------------------------------------------
 
 \section{Avaliação biométrica por FAR e FRR}
 
-Nesta seção é avaliado o desempenho do sistema de reconhecimento facial por meio das métricas biométricas de falsa aceitação (FAR) e falsa rejeição (FRR), calculadas a partir das distâncias cosseno entre pares de embeddings para diferentes valores de limiar de decisão (threshold). O objetivo é analisar como a escolha do limiar influencia o comportamento do sistema em termos de segurança e confiabilidade.
+Nesta seção é avaliado o desempenho do sistema de reconhecimento facial por meio das métricas biométricas de falsa aceitação (FAR) e falsa rejeição (FRR), calculadas a partir das distâncias cosseno entre pares de \textit{embeddings} para diferentes valores de limiar de decisão (threshold). O objetivo é analisar como a escolha do limiar influencia o comportamento do sistema em termos de segurança e confiabilidade.
 
-Para essa avaliação, foram considerados 37.401 pares de comparação, obtidos a partir de 274 amostras faciais com embeddings válidos. Cada par foi classificado de acordo com sua identidade real (mesma identidade ou identidades distintas) e comparado com base na distância cosseno. A decisão de correspondência foi tomada comparando-se essa distância com um valor de threshold, sendo considerada uma correspondência positiva quando a distância é inferior ao limiar.
+Para essa avaliação, foram considerados 37.401 pares de comparação, obtidos a partir de 274 amostras faciais com \textit{embeddings} válidos. Cada par foi classificado de acordo com sua identidade real (mesma identidade ou identidades distintas) e comparado com base na distância cosseno. A decisão de correspondência foi tomada comparando-se essa distância com um valor de threshold, sendo considerada uma correspondência positiva quando a distância é inferior ao limiar.
 
 \begin{table}[H]
 \centering
@@ -50,9 +50,9 @@ Para essa avaliação, foram considerados 37.401 pares de comparação, obtidos 
 \caption*{Fonte: Elaborado pelo autor (2026).}
 \end{table}
 
-Os resultados são organizados em termos de quatro categorias: verdadeiros positivos (TP), correspondentes a pares da mesma identidade corretamente aceitos; falsos negativos (FN), pares da mesma identidade incorretamente rejeitados; falsos positivos (FP), pares de identidades diferentes incorretamente aceitos; e verdadeiros negativos (TN), pares de identidades diferentes corretamente rejeitados. A partir dessas quantidades, são calculadas as métricas FAR, definida como a proporção de falsos positivos em relação ao total de pares impostores, e FRR, definida como a proporção de falsos negativos em relação ao total de pares genuínos.
+Os resultados são organizados em termos de quatro categorias: verdadeiros positivos (\acs{TP}), correspondentes a pares da mesma identidade corretamente aceitos; falsos negativos (\acs{FN}), pares da mesma identidade incorretamente rejeitados; falsos positivos (\acs{FP}), pares de identidades diferentes incorretamente aceitos; e verdadeiros negativos (\acs{TN}), pares de identidades diferentes corretamente rejeitados. A partir dessas quantidades, são calculadas as métricas \acs{FAR}, definida como a proporção de falsos positivos em relação ao total de pares impostores, e \acs{FRR}, definida como a proporção de falsos negativos em relação ao total de pares genuínos.
 
-A \ref{tab:table1} apresenta os resultados obtidos para diferentes valores de threshold. Observa-se que, para limiares entre 0,20 e 0,40, o sistema apresentou FAR e FRR iguais a zero, indicando ausência de erros tanto de aceitação indevida quanto de rejeição indevida nesse intervalo. A partir do limiar 0,45, passam a ocorrer falsas aceitações, refletidas no aumento gradual da FAR, enquanto a FRR permanece nula em todos os valores avaliados, indicando que nenhuma comparação genuína foi rejeitada.
+A \ref{tab:table1} apresenta os resultados obtidos para diferentes valores de threshold. Observa-se que, para limiares entre 0,20 e 0,40, o sistema apresentou \acs{FAR} e \acs{FRR} iguais a zero, indicando ausência de erros tanto de aceitação indevida quanto de rejeição indevida nesse intervalo. A partir do limiar 0,45, passam a ocorrer falsas aceitações, refletidas no aumento gradual da \acs{FAR}, enquanto a \acs{FRR} permanece nula em todos os valores avaliados, indicando que nenhuma comparação genuína foi rejeitada.
 
 Esses resultados evidenciam que o sistema apresenta alta separabilidade entre identidades, permitindo a definição de um limiar de decisão que elimina erros de falsa rejeição e mantém taxas de falsa aceitação extremamente baixas. Essa análise quantitativa fornece subsídios diretos para a escolha do threshold mais adequado, discutida na seção subsequente.
 
@@ -62,15 +62,15 @@ Esses resultados evidenciam que o sistema apresenta alta separabilidade entre id
 
 Com base nos resultados apresentados na seção anterior, definiu-se o limiar de decisão (\textit{threshold}) a ser adotado no sistema de reconhecimento facial. A escolha do limiar tem como objetivo equilibrar segurança e confiabilidade, priorizando a redução de falsas aceitações, aspecto crítico em aplicações de controle de acesso.
 
-A análise dos valores avaliados mostrou que, para \textit{thresholds} entre 0,20 e 0,40, o sistema apresentou taxas nulas de falsa aceitação (FAR) e falsa rejeição (FRR). A partir do valor 0,45, passaram a ocorrer falsas aceitações, ainda que em baixa proporção, indicando perda gradual de segurança conforme o limiar é relaxado. Em todos os casos analisados, a FRR permaneceu nula, evidenciando a ausência de rejeições indevidas de pares genuínos.
+A análise dos valores avaliados mostrou que, para \textit{thresholds} entre 0,20 e 0,40, o sistema apresentou taxas nulas de falsa aceitação (\acs{FAR}) e falsa rejeição (\acs{FRR}). A partir do valor 0,45, passaram a ocorrer falsas aceitações, ainda que em baixa proporção, indicando perda gradual de segurança conforme o limiar é relaxado. Em todos os casos analisados, a \acs{FRR} permaneceu nula, evidenciando a ausência de rejeições indevidas de pares genuínos.
 
-Diante desses resultados, foi adotado o valor 0,40 como limiar de decisão, por representar o maior valor testado que mantém FAR e FRR iguais a zero, oferecendo maior margem de segurança em relação a valores mais permissivos. Esse limiar foi utilizado nas etapas subsequentes de validação e identificação, servindo como critério para aceitação ou rejeição de correspondências faciais no sistema proposto.
+Diante desses resultados, foi adotado o valor 0,40 como limiar de decisão, por representar o maior valor testado que mantém \acs{FAR} e \acs{FRR} iguais a zero, oferecendo maior margem de segurança em relação a valores mais permissivos. Esse limiar foi utilizado nas etapas subsequentes de validação e identificação, servindo como critério para aceitação ou rejeição de correspondências faciais no sistema proposto.
 
 %---------------------------------------------------------
 
 \section{Análise qualitativa dos pares de comparação}
 
-Esta seção apresenta uma análise qualitativa dos resultados obtidos, com o objetivo de complementar as métricas quantitativas discutidas anteriormente por meio da inspeção visual de pares de imagens faciais. Essa análise busca verificar se o comportamento observado nas distâncias entre embeddings é consistente com a percepção visual das imagens comparadas, contribuindo para a validação empírica do sistema.
+Esta seção apresenta uma análise qualitativa dos resultados obtidos, com o objetivo de complementar as métricas quantitativas discutidas anteriormente por meio da inspeção visual de pares de imagens faciais. Essa análise busca verificar se o comportamento observado nas distâncias entre \textit{embeddings} é consistente com a percepção visual das imagens comparadas, contribuindo para a validação empírica do sistema.
 
 Foram selecionados exemplos representativos de pares da mesma identidade e de pares de identidades diferentes, considerando o limiar de decisão definido na seção anterior (distância cosseno inferior a 0,40 para correspondência positiva). Nos pares da mesma identidade, são comparadas imagens distintas associadas a um mesmo identificador, incluindo variações sintéticas decorrentes de transformações aplicadas às imagens originais. Nos pares de identidades diferentes, são comparadas imagens pertencentes a indivíduos distintos corretamente rejeitados pelo sistema.
 
@@ -92,9 +92,9 @@ Foram selecionados exemplos representativos de pares da mesma identidade e de pa
     \end{minipage}
 \end{figure}
 
-As figuras apresentadas evidenciam que, nos casos classificados como pertencentes à mesma identidade, as imagens compartilham características faciais visuais compatíveis, mesmo diante de variações de iluminação, ruído ou pequenas alterações de aparência introduzidas artificialmente. Por outro lado, nos pares de identidades diferentes, observa-se divergência visual clara entre os rostos comparados, coerente com as maiores distâncias no espaço de embeddings e com a decisão de não correspondência adotada pelo sistema.
+As figuras apresentadas evidenciam que, nos casos classificados como pertencentes à mesma identidade, as imagens compartilham características faciais visuais compatíveis, mesmo diante de variações de iluminação, ruído ou pequenas alterações de aparência introduzidas artificialmente. Por outro lado, nos pares de identidades diferentes, observa-se divergência visual clara entre os rostos comparados, coerente com as maiores distâncias no espaço de \textit{embeddings} e com a decisão de não correspondência adotada pelo sistema.
 
-De forma geral, a análise qualitativa confirma que as decisões baseadas em similaridade no espaço de embeddings refletem adequadamente as diferenças e semelhanças perceptíveis entre as imagens faciais, reforçando a confiabilidade dos resultados quantitativos apresentados nas seções anteriores.
+De forma geral, a análise qualitativa confirma que as decisões baseadas em similaridade no espaço de \textit{embeddings} refletem adequadamente as diferenças e semelhanças perceptíveis entre as imagens faciais, reforçando a confiabilidade dos resultados quantitativos apresentados nas seções anteriores.
 
 %---------------------------------------------------------
 
@@ -102,7 +102,7 @@ De forma geral, a análise qualitativa confirma que as decisões baseadas em sim
 
 Nesta seção é avaliado o funcionamento do processo de identificação facial no cenário 1 vs N, no qual uma imagem de consulta é comparada com todas as representações faciais armazenadas na base de dados, com o objetivo de determinar a identidade mais semelhante. Essa avaliação tem caráter funcional e demonstra a aplicação prática do critério de similaridade definido nas seções anteriores.
 
-Para o teste realizado, foram consideradas 300 identidades com \textit{embeddings} válidos no conjunto de referência. Uma identidade foi selecionada como consulta, e seu embedding foi comparado com os \textit{embeddings} das demais identidades por meio da distância cosseno. O processo de identificação consistiu em selecionar a identidade que apresentou a menor distância em relação à consulta, caracterizando o candidato mais próximo no espaço de \textit{embeddings}.
+Para o teste realizado, foram consideradas 300 identidades com \textit{embeddings} válidos no conjunto de referência. Uma identidade foi selecionada como consulta, e seu \textit{embeddings} foi comparado com os \textit{embeddings} das demais identidades por meio da distância cosseno. O processo de identificação consistiu em selecionar a identidade que apresentou a menor distância em relação à consulta, caracterizando o candidato mais próximo no espaço de \textit{embeddings}.
 
 Como resultado, a identidade consultada foi associada à identidade mais próxima na base, apresentando uma distância cosseno de 0,0002, valor significativamente inferior ao limiar de decisão adotado. Com base nesse critério, a identidade foi corretamente confirmada pelo sistema, evidenciando que o método de identificação por similaridade é capaz de localizar a representação mais próxima de forma consistente no conjunto avaliado.
 
