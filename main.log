@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.9)  4 FEB 2026 00:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.9)  5 FEB 2026 00:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -549,48 +549,112 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box54
 \@float@everytoks=\toks25
 \@floatcapt=\box55
+) (C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip80
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks26
+\ex@=\dimen176
+)) (C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen177
+) (C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count447
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count448
+\leftroot@=\count449
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count450
+\DOTSCASE@=\count451
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen178
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count452
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count453
+\dotsspace@=\muskip22
+\c@parentequation=\count454
+\dspbrk@lvl=\count455
+\tag@help=\toks27
+\row@=\count456
+\column@=\count457
+\maxfields@=\count458
+\andhelp@=\toks28
+\eqnshift@=\dimen179
+\alignsep@=\dimen180
+\tagshift@=\dimen181
+\tagwidth@=\dimen182
+\totwidth@=\dimen183
+\lineht@=\dimen184
+\@envbody=\toks29
+\multlinegap=\skip81
+\multlinetaggap=\skip82
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
 ) (Dados.tex) (C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count447
-\l__lipsum_a_int=\count448
-\l__lipsum_b_int=\count449
+\g__lipsum_par_int=\count459
+\l__lipsum_a_int=\count460
+\l__lipsum_b_int=\count461
  (C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazil'.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 17.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 18.
  (C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 17.
+(Font)              scaled to size 11.39996pt on input line 18.
  (main.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 10.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -631,24 +695,24 @@ Package newfloat Info: `float' package detected.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 18.
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
  (C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count450
-\scratchdimen=\dimen176
-\scratchbox=\box56
-\nofMPsegments=\count451
-\nofMParguments=\count452
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count453
-\MPscratchDim=\dimen177
-\MPnumerator=\count454
-\makeMPintoPDFobject=\count455
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count462
+\scratchdimen=\dimen185
+\scratchbox=\box58
+\nofMPsegments=\count463
+\nofMParguments=\count464
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count465
+\MPscratchDim=\dimen186
+\MPnumerator=\count466
+\makeMPintoPDFobject=\count467
+\everyMPtoPDFconversion=\toks32
 ) (C:\Users\pablo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -743,29 +807,22 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 17.
-Package biblatex Info: Reference segment=0 on input line 17.
-Package csquotes Info: Redefining character " on input line 17.
+Package biblatex Info: Reference section=0 on input line 18.
+Package biblatex Info: Reference segment=0 on input line 18.
+Package csquotes Info: Redefining character " on input line 18.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 18.
+(Font)              scaled to size 11.39996pt on input line 19.
 
 
 [1
 
 {C:/Users/pablo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 \makecover
+l.23 \makecover
                 % folha de rosto               (obrigatório) [1
 
 ]
@@ -774,7 +831,7 @@ l.22 \makecover
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 \makeapproval
+l.25 \makeapproval
                    %                           (obrigatório) [1] (1-Pre-Textual/Dedicatoria.tex) (1-Pre-Textual/Agradecimentos.tex
 
 
@@ -837,7 +894,9 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 
 
 
-[11] (2-Textual/1-Introducao.tex
+[11]
+
+[12] (2-Textual/1-Introducao.tex
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 44.
@@ -864,7 +923,7 @@ l.95     \item \textbf
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 \clearpage
+l.39 \clearpage
                 [3] (2-Textual/2-Fundamentacao-Teorica.tex
 Cap\'{\i }tulo 2.
 Package acronym Info: Label `acro:RFID' newly defined as it shall be overridden
@@ -878,8 +937,8 @@ Package acronym Info: Label `acro:NFC' overridden on input line 11.
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 A
-      pesar de seu potencial, o reconhecimento facial impõe desafios técni... [4
+l.14 
+      [4
 
 
 ]
@@ -905,117 +964,162 @@ Package acronym Info: Label `acro:NFC' overridden on input line 36.
 Package acronym Info: Label `acro:NFC' overridden on input line 36.
 Package acronym Info: Label `acro:NFC' overridden on input line 38.
 Package acronym Info: Label `acro:RFID' overridden on input line 38.
-Package acronym Info: Label `acro:RFID' overridden on input line 42.
-Package acronym Info: Label `acro:NFC' overridden on input line 42.
+<Imagens/nfc.png, id=566, 529.98pt x 451.6875pt>
+File: Imagens/nfc.png Graphic file (type png)
+<use Imagens/nfc.png>
+Package pdftex.def Info: Imagens/nfc.png  used on input line 44.
+(pdftex.def)             Requested size: 318.66948pt x 271.59352pt.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 
+l.48 
       [6]
+Package acronym Info: Label `acro:RFID' overridden on input line 51.
+Package acronym Info: Label `acro:NFC' overridden on input line 51.
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.65 
-      [7]
+l.60 
+      [7 <./Imagens/nfc.png>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.77 
+l.74 
       [8]
-Package acronym Info: Label `acro:FAR' newly defined as it shall be overridden
-although it is yet undefined on input line 78.
-Package acronym Info: Label `acro:FRR' newly defined as it shall be overridden
-although it is yet undefined on input line 78.
-Package acronym Info: Label `acro:RGB' newly defined as it shall be overridden
-although it is yet undefined on input line 88.
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.90 A
-       resolução de uma imagem está relacionada ao número de pixels que ... [9]
+l.83 \subsection
+                {Critérios de qualidade em sistemas biométricos} [9]
+Package acronym Info: Label `acro:FAR' newly defined as it shall be overridden
+although it is yet undefined on input line 87.
+Package acronym Info: Label `acro:FRR' newly defined as it shall be overridden
+although it is yet undefined on input line 87.
+Package acronym Info: Label `acro:RGB' newly defined as it shall be overridden
+although it is yet undefined on input line 97.
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 
-       [10]
+l.98 
+      [10]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 
+l.106 
        [11]
+<Imagens/vectors.png, id=657, 853.1875pt x 504.88625pt>
+File: Imagens/vectors.png Graphic file (type png)
+<use Imagens/vectors.png>
+Package pdftex.def Info: Imagens/vectors.png  used on input line 123.
+(pdftex.def)             Requested size: 409.71692pt x 242.45819pt.
 
-[12]
 
-[13]
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.127 
+       [12]
+
+[13 <./Imagens/vectors.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 143.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 143.
+
 
 [14]
 
 [15]
 
 [16]
-Package acronym Info: Label `acro:TP' newly defined as it shall be overridden
-although it is yet undefined on input line 192.
-Package acronym Info: Label `acro:TN' newly defined as it shall be overridden
-although it is yet undefined on input line 192.
+<Imagens/triplet.png, id=729, 1258.7025pt x 627.09282pt>
+File: Imagens/triplet.png Graphic file (type png)
+<use Imagens/triplet.png>
+Package pdftex.def Info: Imagens/triplet.png  used on input line 202.
+(pdftex.def)             Requested size: 455.24411pt x 226.80579pt.
 
 
 [17]
-Package acronym Info: Label `acro:FP' newly defined as it shall be overridden
-although it is yet undefined on input line 194.
-Package acronym Info: Label `acro:FN' newly defined as it shall be overridden
-although it is yet undefined on input line 194.
-Package acronym Info: Label `acro:FAR' overridden on input line 198.
-Package acronym Info: Label `acro:FRR' overridden on input line 198.
-Package acronym Info: Label `acro:FAR' overridden on input line 200.
-Package acronym Info: Label `acro:FRR' overridden on input line 200.
-Package acronym Info: Label `acro:FRR' overridden on input line 200.
-Package acronym Info: Label `acro:FAR' overridden on input line 200.
-Package acronym Info: Label `acro:FAR' overridden on input line 204.
-Package acronym Info: Label `acro:FRR' overridden on input line 204.
-Package acronym Info: Label `acro:FAR' overridden on input line 206.
 
-
-[18]
-Package acronym Info: Label `acro:LGPD' newly defined as it shall be overridden
-although it is yet undefined on input line 222.
-
+[18 <./Imagens/triplet.png (PNG copy)>]
 
 [19]
+<Imagens/face_recognition.jpg, id=767, 803.0pt x 521.95pt>
+File: Imagens/face_recognition.jpg Graphic file (type jpg)
+<use Imagens/face_recognition.jpg>
+Package pdftex.def Info: Imagens/face_recognition.jpg  used on input line 242.
+(pdftex.def)             Requested size: 409.71692pt x 266.3184pt.
+
 
 [20]
+Package acronym Info: Label `acro:TP' newly defined as it shall be overridden
+although it is yet undefined on input line 255.
+Package acronym Info: Label `acro:TN' newly defined as it shall be overridden
+although it is yet undefined on input line 255.
 
-[21]
-Package acronym Info: Label `acro:TLS' newly defined as it shall be overridden
-although it is yet undefined on input line 252.
-Package acronym Info: Label `acro:HTTPS' newly defined as it shall be overridden
-although it is yet undefined on input line 252.
-Package acronym Info: Label `acro:TLS' overridden on input line 252.
-Package acronym Info: Label `acro:mTLS' newly defined as it shall be overridden
-although it is yet undefined on input line 254.
-Package acronym Info: Label `acro:TLS' overridden on input line 256.
-Package acronym Info: Label `acro:mTLS' overridden on input line 256.
-) (2-Textual/3-Trabalhos-Relacionados.tex) (2-Textual/4-Metodologia.tex
+
+[21 <./Imagens/face_recognition.jpg>]
+Package acronym Info: Label `acro:FP' newly defined as it shall be overridden
+although it is yet undefined on input line 257.
+Package acronym Info: Label `acro:FN' newly defined as it shall be overridden
+although it is yet undefined on input line 257.
+Package acronym Info: Label `acro:FAR' overridden on input line 261.
+Package acronym Info: Label `acro:FRR' overridden on input line 261.
+Package acronym Info: Label `acro:FAR' overridden on input line 269.
+Package acronym Info: Label `acro:FRR' overridden on input line 269.
+Package acronym Info: Label `acro:FRR' overridden on input line 269.
+Package acronym Info: Label `acro:FAR' overridden on input line 269.
+Package acronym Info: Label `acro:FAR' overridden on input line 274.
+Package acronym Info: Label `acro:FRR' overridden on input line 274.
+
 
 [22]
+Package acronym Info: Label `acro:FAR' overridden on input line 276.
+
+
+[23]
+Package acronym Info: Label `acro:LGPD' newly defined as it shall be overridden
+although it is yet undefined on input line 292.
+
+
+[24]
+
+[25]
+Package acronym Info: Label `acro:TLS' newly defined as it shall be overridden
+although it is yet undefined on input line 322.
+Package acronym Info: Label `acro:HTTPS' newly defined as it shall be overridden
+although it is yet undefined on input line 322.
+Package acronym Info: Label `acro:TLS' overridden on input line 322.
+Package acronym Info: Label `acro:mTLS' newly defined as it shall be overridden
+although it is yet undefined on input line 324.
+Package acronym Info: Label `acro:TLS' overridden on input line 326.
+Package acronym Info: Label `acro:mTLS' overridden on input line 326.
+) (2-Textual/3-Trabalhos-Relacionados.tex
+
+[26]) (2-Textual/4-Metodologia.tex
+
+[27]
 Cap\'{\i }tulo 3.
 Package acronym Info: Label `acro:NFC' overridden on input line 3.
 Package acronym Info: Label `acro:CEFET-MG' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
-<Imagens/diagramaBlocos.png, id=650, 884.30376pt x 186.6975pt>
+<Imagens/diagramaBlocos.png, id=905, 884.30376pt x 186.6975pt>
 File: Imagens/diagramaBlocos.png Graphic file (type png)
 <use Imagens/diagramaBlocos.png>
 Package pdftex.def Info: Imagens/diagramaBlocos.png  used on input line 11.
@@ -1031,13 +1135,13 @@ Package acronym Info: Label `acro:GANs' newly defined as it shall be overridden
 although it is yet undefined on input line 22.
 
 
-[23
+[28
 
  <./Imagens/diagramaBlocos.png>]
 Package acronym Info: Label `acro:LGPD' overridden on input line 24.
 
 
-[24]
+[29]
 Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
 although it is yet undefined on input line 36.
 Package acronym Info: Label `acro:JSON' overridden on input line 38.
@@ -1045,29 +1149,29 @@ Package acronym Info: Label `acro:JSON' overridden on input line 40.
 Package acronym Info: Label `acro:JSON' overridden on input line 42.
 
 
-[25]
+[30]
 Package acronym Info: Label `acro:JSON' overridden on input line 52.
 
 
-[26]
-<Imagens/face1.jpg, id=710, 1027.84pt x 1027.84pt>
+[31]
+<Imagens/face1.jpg, id=963, 1027.84pt x 1027.84pt>
 File: Imagens/face1.jpg Graphic file (type jpg)
 <use Imagens/face1.jpg>
 Package pdftex.def Info: Imagens/face1.jpg  used on input line 72.
 (pdftex.def)             Requested size: 145.68144pt x 145.66885pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 73.
-<Imagens/face2.jpg, id=711, 1027.84pt x 1027.84pt>
+<Imagens/face2.jpg, id=964, 1027.84pt x 1027.84pt>
 File: Imagens/face2.jpg Graphic file (type jpg)
 <use Imagens/face2.jpg>
 Package pdftex.def Info: Imagens/face2.jpg  used on input line 78.
 (pdftex.def)             Requested size: 145.68144pt x 145.66885pt.
-<Imagens/face3.jpg, id=712, 1027.84pt x 1027.84pt>
+<Imagens/face3.jpg, id=965, 1027.84pt x 1027.84pt>
 File: Imagens/face3.jpg Graphic file (type jpg)
 <use Imagens/face3.jpg>
 Package pdftex.def Info: Imagens/face3.jpg  used on input line 84.
 (pdftex.def)             Requested size: 145.68144pt x 145.66885pt.
-<Imagens/face4.jpg, id=713, 1027.84pt x 1027.84pt>
+<Imagens/face4.jpg, id=966, 1027.84pt x 1027.84pt>
 File: Imagens/face4.jpg Graphic file (type jpg)
 <use Imagens/face4.jpg>
 Package pdftex.def Info: Imagens/face4.jpg  used on input line 90.
@@ -1079,40 +1183,34 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 Package acronym Info: Label `acro:JSON' overridden on input line 99.
 
 
-[27 <./Imagens/face1.jpg> <./Imagens/face2.jpg> <./Imagens/face3.jpg> <./Imagens/face4.jpg>]
+[32 <./Imagens/face1.jpg> <./Imagens/face2.jpg> <./Imagens/face3.jpg> <./Imagens/face4.jpg>]
 
-[28]
+[33]
 Package acronym Info: Label `acro:JSON' overridden on input line 113.
 
 
-[29]
-<Imagens/triplet.png, id=760, 1258.7025pt x 627.09282pt>
-File: Imagens/triplet.png Graphic file (type png)
-<use Imagens/triplet.png>
-Package pdftex.def Info: Imagens/triplet.png  used on input line 131.
-(pdftex.def)             Requested size: 455.24411pt x 226.80579pt.
+[34]
+Package acronym Info: Label `acro:FAR' overridden on input line 137.
+Package acronym Info: Label `acro:FRR' overridden on input line 137.
 
 
-[30 <./Imagens/triplet.png (PNG copy)>]
-Package acronym Info: Label `acro:FAR' overridden on input line 146.
-Package acronym Info: Label `acro:FRR' overridden on input line 146.
-) (2-Textual/5-Resultados-Discussoes.tex
+[35]) (2-Textual/5-Resultados-Discussoes.tex
 
-[31]
+[36]
 Cap\'{\i }tulo 4.
 Package acronym Info: Label `acro:NFC' overridden on input line 3.
-<Imagens/result1.png, id=781, 1110.0672pt x 544.9158pt>
+<Imagens/result1.png, id=1030, 1110.0672pt x 544.9158pt>
 File: Imagens/result1.png Graphic file (type png)
 <use Imagens/result1.png>
 Package pdftex.def Info: Imagens/result1.png  used on input line 17.
 (pdftex.def)             Requested size: 455.24411pt x 223.46681pt.
 
 
-[32
+[37
 
 ]
 
-[33 <./Imagens/result1.png>]
+[38 <./Imagens/result1.png>]
 Package acronym Info: Label `acro:TP' overridden on input line 53.
 Package acronym Info: Label `acro:FN' overridden on input line 53.
 Package acronym Info: Label `acro:FP' overridden on input line 53.
@@ -1125,7 +1223,7 @@ Package acronym Info: Label `acro:FAR' overridden on input line 55.
 Package acronym Info: Label `acro:FRR' overridden on input line 55.
 
 
-[34]
+[39]
 Package acronym Info: Label `acro:FAR' overridden on input line 65.
 Package acronym Info: Label `acro:FRR' overridden on input line 65.
 Package acronym Info: Label `acro:FRR' overridden on input line 65.
@@ -1133,63 +1231,65 @@ Package acronym Info: Label `acro:FAR' overridden on input line 67.
 Package acronym Info: Label `acro:FRR' overridden on input line 67.
 
 
-[35]
-<Imagens/pessoas_iguais.png, id=826, 1110.0672pt x 544.9158pt>
+[40]
+<Imagens/pessoas_iguais.png, id=1075, 1110.0672pt x 544.9158pt>
 File: Imagens/pessoas_iguais.png Graphic file (type png)
 <use Imagens/pessoas_iguais.png>
 Package pdftex.def Info: Imagens/pessoas_iguais.png  used on input line 81.
 (pdftex.def)             Requested size: 455.24411pt x 223.46681pt.
-<Imagens/pessoas_diferentes.png, id=827, 1110.0672pt x 544.9158pt>
+<Imagens/pessoas_diferentes.png, id=1076, 1110.0672pt x 544.9158pt>
 File: Imagens/pessoas_diferentes.png Graphic file (type png)
 <use Imagens/pessoas_diferentes.png>
 Package pdftex.def Info: Imagens/pessoas_diferentes.png  used on input line 90.
 (pdftex.def)             Requested size: 455.24411pt x 223.46681pt.
 
 
-[36 <./Imagens/pessoas_iguais.png> <./Imagens/pessoas_diferentes.png>]) (2-Textual/6-Conclusao.tex
+[41 <./Imagens/pessoas_iguais.png> <./Imagens/pessoas_diferentes.png>]) (2-Textual/6-Conclusao.tex
 
-[37]
+[42]
 
-[38]
+[43]
 Cap\'{\i }tulo 5.
 )
 
-[39
+[44
 
 ]
-LaTeX Font Info:    Font shape `TS1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 47.
 
-
-[40
+[45
 
 
 
 ]
+LaTeX Font Info:    Font shape `TS1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 48.
 
-[41] (main.aux)
+
+[46]
+
+[47] (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 93B2A059250C413A4C83342AFA66B407;16453.
+(rerunfilecheck)             Checksum: 163B23D4FF1F2E72F3D33A03AC84A355;16504.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22863 strings out of 468133
- 414160 string characters out of 5430713
- 1405234 words of memory out of 5000000
- 50892 multiletter control sequences out of 15000+600000
- 648695 words of font info for 65 fonts, out of 8000000 for 9000
+ 23807 strings out of 468133
+ 429751 string characters out of 5430713
+ 1425907 words of memory out of 5000000
+ 51775 multiletter control sequences out of 15000+600000
+ 653769 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,14n,93p,914b,4312s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\pablo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (55 pages, 4967095 bytes).
+ 93i,14n,98p,918b,4312s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\pablo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/pablo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (62 pages, 5344112 bytes).
 PDF statistics:
- 988 PDF objects out of 1000 (max. 8388607)
- 235 named destinations out of 1000 (max. 500000)
- 542 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1293 PDF objects out of 1440 (max. 8388607)
+ 275 named destinations out of 1000 (max. 500000)
+ 565 words of extra memory for PDF output out of 10000 (max. 10000000)
 

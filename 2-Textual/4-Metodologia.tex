@@ -122,16 +122,7 @@ Neste trabalho, foi adotada a métrica de distância cosseno para a comparação
 
 A partir da métrica de similaridade definida, estabeleceu-se um limiar de decisão (\textit{threshold}) para determinar se dois \textit{embeddings} correspondem à mesma identidade ou a identidades distintas \cite{schroff2015facenet}. Distâncias inferiores ao limiar são interpretadas como correspondências positivas, enquanto distâncias superiores indicam não correspondência. A definição desse limiar é tratada como um parâmetro experimental, cuja adequação é avaliada por meio de análises quantitativas descritas nas etapas subsequentes da metodologia.
 
-Esse procedimento reflete diretamente o princípio das abordagens inspiradas em redes siamesas e funções de perda do tipo \textit{triplet loss}, nas quais o aprendizado visa estruturar o espaço de \textit{embeddings} de modo que amostras da mesma identidade apresentem distâncias reduzidas, enquanto amostras de identidades diferentes sejam separadas por distâncias maiores, possibilitando decisões baseadas em métricas de similaridade \cite{ge2018hierarchical}. A ~\ref{fig:triplet} ilustra, de forma conceitual, a organização do espaço de \textit{embeddings} em abordagens baseadas em aprendizado métrico.
-
-\begin{figure}[!htb]
-    \centering
-    \begin{minipage}{1.0\textwidth}
-        \caption{\label{fig:triplet} Espaço de \textit{embeddings} antes e após o aprendizado.}
-        \includegraphics[width=\textwidth]{Imagens/triplet.png}
-        \caption*{\footnotesize Fonte: Elaborado pelo autor, 2026.}
-    \end{minipage}
-\end{figure}
+Esse procedimento reflete diretamente o princípio das abordagens inspiradas em redes siamesas e funções de perda do tipo \textit{triplet loss}, nas quais o aprendizado visa estruturar o espaço de \textit{embeddings} de modo que amostras da mesma identidade apresentem distâncias reduzidas, enquanto amostras de identidades diferentes sejam separadas por distâncias maiores, possibilitando decisões baseadas em métricas de similaridade \cite{ge2018hierarchical}.
 
 %---------------------------------------------------------
 
