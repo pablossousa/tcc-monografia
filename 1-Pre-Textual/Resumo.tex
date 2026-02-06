@@ -1,18 +1,6 @@
 \begin{abstract}
 \thispagestyle{empty}
-    O resumo deve ressaltar o objetivo, o método, os resultados e as conclusões do documento. A ordem e a extensão destes itens dependem do tipo de resumo (informativo ou indicativo) e do tratamento que cada item recebe no documento original. Deve ser precedido da referência do documento, com exceção do resumo inserido no próprio documento, e ser composto de uma sequência de frases concisas, de cunho afirmativo e sem enumeração de tópicos, dado que se recomenda o uso de parágrafo único. As palavras-chave devem figurar logo abaixo do resumo, antecedidas da expressão palavras-chave, e finalizadas também por ponto.
-    É importante evitar:
-    \begin{enumerate}
-        \item símbolos e contrações que não sejam de uso corrente;
-        \item fórmulas, equações, diagramas e similares que não sejam absolutamente necessários; quando seu emprego for  imprescindível, deve-se defini-los na primeira vez em que aparecerem.
-    \end{enumerate}
-    Quanto à extensão, os resumos devem ter:
-    \begin{enumerate}
-        \item de 150 a 500 palavras os de trabalhos acadêmicos (teses, dissertações e outros) e relatórios técnico-científicos;
-        \item de 100 a 250 palavras os de artigos de periódicos;
-        \item de 50 a 100 palavras os destinados a indicações breves.
-    \end{enumerate}
-    Como tratado, o resumo deve ser seguido das palavras representativas do conteúdo do trabalho, isto é, palavras-chave, ou descritores, no idioma em que foi redigido (mínimo 3). Elas devem ser separadas por ponto e virgula e finalizadas com ponto final.
-    \\ \\
-    \textbf{Palavras-chave:} Palavra-chave 1; Palavra-chave 2; Palavra-chave 3; Palavra-chave 4; Palavra-chave 5.
+Este trabalho investiga a viabilidade do uso de reconhecimento facial baseado em \textit{embeddings} como alternativa aos cartões \acs{NFC} no controle de acesso e na cobrança de refeições no CEFET-MG. O objetivo principal é validar, em nível conceitual e experimental, a aplicação de técnicas de aprendizado métrico em um cenário institucional, considerando aspectos de desempenho e confiabilidade. Para isso, foi implementado um \textit{pipeline} de reconhecimento facial utilizando modelos pré-treinados para a extração de características e uma métrica de similaridade no espaço vetorial, com decisão baseada em um \textit{threshold}. A avaliação foi conduzida a partir de uma base de dados composta por imagens faciais sintéticas, adotada por razões éticas e de conformidade com a \acs{LGPD}, e incluiu tanto experimentos de verificação quanto de identificação no cenário 1:N. O desempenho do sistema foi analisado por meio das métricas biométricas \acs{FAR} (\textit{False Acceptance Rate}) e \acs{FRR} (\textit{False Rejection Rate}), além da observação da distribuição das distâncias entre pares genuínos e impostores. Os resultados obtidos indicam que os \textit{embeddings} produzem um espaço de representação com boa separação entre identidades distintas e consistência entre amostras da mesma identidade, permitindo a definição de um limiar de decisão que estabelece um compromisso adequado entre segurança e usabilidade. Conclui-se que a abordagem é tecnicamente viável como alternativa aos cartões físicos, embora ainda restrita a um ambiente experimental, servindo como base para a implementação de um protótipo funcional no PFC II.
+\\[0.5em]
+\textbf{Palavras-chave:} reconhecimento facial; biometria; \textit{embeddings}; controle de acesso; \acs{NFC}.
 \end{abstract}

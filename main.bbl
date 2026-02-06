@@ -520,58 +520,6 @@
       \field{title}{{ML Kit Vision – Detecção de Face Mesh}}
       \field{year}{2026}
     \endentry
-    \entry{gunther2017debating}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=0d17a36d35881d95e01b5726e932f019}{%
-           family={Günther},
-           familyi={G\bibinitperiod},
-           given={Wendy\bibnamedelima Arianne},
-           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9b3024a93a2ac9d96e494a4d0a5ed379}{%
-           family={Mehrizi},
-           familyi={M\bibinitperiod},
-           given={Mohammad\bibnamedelimb H\bibnamedelima Rezazade},
-           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1a76d55f4ad967984e43f96742604d78}{%
-           family={Huysman},
-           familyi={H\bibinitperiod},
-           given={Marleen},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f17b7de3dee4332bc31ebdd2d58266a7}{%
-           family={Feldberg},
-           familyi={F\bibinitperiod},
-           given={Frans},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{0a1bd5f56d3f65bbb0174222280a3614}
-      \strng{fullhash}{7c8bc24c6f236b69241a312ce3125a9d}
-      \strng{fullhashraw}{7c8bc24c6f236b69241a312ce3125a9d}
-      \strng{bibnamehash}{0a1bd5f56d3f65bbb0174222280a3614}
-      \strng{authorbibnamehash}{0a1bd5f56d3f65bbb0174222280a3614}
-      \strng{authornamehash}{0a1bd5f56d3f65bbb0174222280a3614}
-      \strng{authorfullhash}{7c8bc24c6f236b69241a312ce3125a9d}
-      \strng{authorfullhashraw}{7c8bc24c6f236b69241a312ce3125a9d}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Strategic Information Systems}
-      \field{number}{3}
-      \field{title}{Debating big data: A literature review on realizing value from big data}
-      \field{volume}{26}
-      \field{year}{2017}
-      \field{pages}{191\bibrangedash 209}
-      \range{pages}{19}
-    \endentry
     \entry{hassaballah2015face}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=9806239e5a4ff26eb47a6b160c8faffd}{%
@@ -1144,6 +1092,41 @@
       \field{title}{{What Is NFC (Near Field Communication) and How Does It Work?}}
       \field{year}{2024}
     \endentry
+    \entry{rocha2023}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a4bd4acc0c000d45684ce7e05015bbb6}{%
+           family={Rocha},
+           familyi={R\bibinitperiod},
+           given={Jessé\bibnamedelimb da\bibnamedelima Costa},
+           giveni={J\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Federal do Pará, Instituto de Tecnologia, Programa de Pós-Graduação em Engenharia Elétrica}%
+      }
+      \list{location}{1}{%
+        {Belém}%
+      }
+      \strng{namehash}{a4bd4acc0c000d45684ce7e05015bbb6}
+      \strng{fullhash}{a4bd4acc0c000d45684ce7e05015bbb6}
+      \strng{fullhashraw}{a4bd4acc0c000d45684ce7e05015bbb6}
+      \strng{bibnamehash}{a4bd4acc0c000d45684ce7e05015bbb6}
+      \strng{authorbibnamehash}{a4bd4acc0c000d45684ce7e05015bbb6}
+      \strng{authornamehash}{a4bd4acc0c000d45684ce7e05015bbb6}
+      \strng{authorfullhash}{a4bd4acc0c000d45684ce7e05015bbb6}
+      \strng{authorfullhashraw}{a4bd4acc0c000d45684ce7e05015bbb6}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{note}{Orientador: Carlos Renato Lisboa Francês; Coorientadora: Jasmine Priscyla Leite de Araújo}
+      \field{title}{Reconhecimento facial de alunos de escola pública no uso de ônibus escolar em cidade inteligente}
+      \field{type}{Dissertação de Mestrado}
+      \field{year}{2023}
+    \endentry
     \entry{schroff2015facenet}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c62e96f68033a3d3cd4639e35a2de4da}{%
@@ -1222,6 +1205,39 @@
       \verb{doi}
       \verb 10.1186/s40537-019-0197-0
       \endverb
+    \endentry
+    \entry{silvajunior2025}{monograph}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a665902692ed4ac54e4466fb0afb4f4f}{%
+           family={Silva\bibnamedelima Júnior},
+           familyi={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Hélio\bibnamedelimb José\bibnamedelima da},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Instituto Federal de Educação, Ciência e Tecnologia da Paraíba}%
+      }
+      \list{location}{1}{%
+        {Cajazeiras}%
+      }
+      \strng{namehash}{a665902692ed4ac54e4466fb0afb4f4f}
+      \strng{fullhash}{a665902692ed4ac54e4466fb0afb4f4f}
+      \strng{fullhashraw}{a665902692ed4ac54e4466fb0afb4f4f}
+      \strng{bibnamehash}{a665902692ed4ac54e4466fb0afb4f4f}
+      \strng{authorbibnamehash}{a665902692ed4ac54e4466fb0afb4f4f}
+      \strng{authornamehash}{a665902692ed4ac54e4466fb0afb4f4f}
+      \strng{authorfullhash}{a665902692ed4ac54e4466fb0afb4f4f}
+      \strng{authorfullhashraw}{a665902692ed4ac54e4466fb0afb4f4f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{UniAccess: uma aplicação que auxilia no gerenciamento do acesso e consumo das refeições do restaurante estudantil do IFPB -- Campus Cajazeiras}
+      \field{type}{Trabalho de Conclusão de Curso (Tecnólogo em Análise e Desenvolvimento de Sistemas)}
+      \field{year}{2025}
     \endentry
     \entry{stallings2017cns}{book}{}{}
       \name{author}{1}{}{%

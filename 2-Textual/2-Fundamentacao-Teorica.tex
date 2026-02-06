@@ -1,4 +1,5 @@
 \chapter{Fundamentação Teórica}
+\label{chap:fundamentacao}
 
 Antes de abordar as técnicas biométricas e os métodos computacionais empregados neste trabalho, é importante compreender a tecnologia atualmente utilizada como base para o controle de acesso em muitos ambientes institucionais. O uso de cartões de identificação baseados em radiofrequência constitui o cenário de referência a partir do qual se discute a motivação para alternativas biométricas. Assim, as subseções a seguir apresentam os conceitos fundamentais de \acs{RFID} e \acs{NFC}, seu funcionamento básico, bem como limitações e vulnerabilidades associadas ao seu uso em sistemas de autenticação e controle de acesso.
 
@@ -324,3 +325,5 @@ Na prática, esses princípios são implementados por meio de protocolos amplame
 Em cenários que exigem maior nível de confiança, pode-se empregar a autenticação mútua, conhecida como \acs{mTLS}, na qual tanto o servidor quanto o cliente apresentam certificados para provar suas identidades. Isso cria um vínculo de confiança bidirecional entre as partes, reduzindo o risco de comunicação com entidades não autorizadas. No contexto do pipeline considerado neste trabalho, esse mecanismo é relevante para proteger a troca de informações entre o componente de captura e o servidor de processamento \cite{rfc8446}.
 
 É importante ressaltar, contudo, que a segurança do canal não garante, por si só, a segurança do modelo de reconhecimento ou das decisões tomadas pelo sistema. Protocolos como \acs{TLS} e \acs{mTLS} protegem a comunicação, mas não impedem, por exemplo, erros de classificação ou vulnerabilidades inerentes ao modelo. Por isso, a segurança da transmissão e a confiabilidade do reconhecimento devem ser tratadas como aspectos complementares de um mesmo sistema \cite{anderson2020security}.
+
+A partir dos conceitos apresentados na fundamentação teórica, é possível analisar como essas ideias têm sido aplicadas em soluções já propostas na literatura. O capítulo a seguir apresenta e discute trabalhos relacionados que utilizam biometria em contextos educacionais e de controle de acesso, situando a proposta deste estudo em relação às abordagens existentes.
