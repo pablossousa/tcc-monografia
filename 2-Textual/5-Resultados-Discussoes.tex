@@ -32,6 +32,8 @@ Nesta seção é avaliado o desempenho do sistema de reconhecimento facial por m
 
 Para essa avaliação, foram considerados 37.401 pares de comparação, obtidos a partir de 274 amostras faciais com \textit{embeddings} válidos. Cada par foi classificado de acordo com sua identidade real (mesma identidade ou identidades distintas) e comparado com base na distância cosseno. A decisão de correspondência foi tomada comparando-se essa distância com um valor de \textit{threshold}, sendo considerada uma correspondência positiva quando a distância é inferior ao limiar.
 
+Embora o conjunto de dados seja composto por 300 identidades, com aplicação de técnicas de aumento de dados que resultariam em aproximadamente 1200 imagens, nem todas as amostras geraram \textit{embeddings} válidos. Durante a etapa de extração, imagens nas quais o detector facial não identificou corretamente um rosto, ou que apresentaram problemas de leitura, foram automaticamente descartadas, sendo seus \textit{embeddings} definidos como nulos. Em consequência, apenas 274 amostras com \textit{embeddings} válidos foram efetivamente utilizadas nas avaliações. Esse valor é consistente com o total de 37.401 pares analisados, uma vez que esse número corresponde a $\frac{274 \times 273}{2}$ combinações possíveis entre vetores válidos.
+
 \begin{table}[H]
 \centering
 \caption{Resultados de desempenho para diferentes valores de \textit{threshold}, incluindo TP, FP, TN, FN, FAR e FRR}
@@ -99,14 +101,10 @@ De forma geral, a análise qualitativa confirma que as decisões baseadas em sim
 
 %---------------------------------------------------------
 
-\section{Avaliação do processo de identificação (1 vs N)}
+\section{Avaliação do processo de identificação (1:N)}
 
-Nesta seção é avaliado o funcionamento do processo de identificação facial no cenário 1 vs N, no qual uma imagem de consulta é comparada com todas as representações faciais armazenadas na base de dados, com o objetivo de determinar a identidade mais semelhante. Essa avaliação tem caráter funcional e demonstra a aplicação prática do critério de similaridade definido nas seções anteriores.
+Nesta seção avalia-se o funcionamento do processo de identificação facial no cenário 1:N, no qual uma amostra de consulta é comparada com as representações faciais armazenadas na base de referência, com o objetivo de recuperar a identidade mais semelhante. A avaliação tem caráter funcional e ilustra a aplicação prática do critério de similaridade e do limiar definido nas seções anteriores ($\tau = 0{,}40$).
 
-Para o teste realizado, foram consideradas 300 identidades com \textit{embeddings} válidos no conjunto de referência. Uma identidade foi selecionada como consulta, e seu \textit{embeddings} foi comparado com os \textit{embeddings} das demais identidades por meio da distância cosseno. O processo de identificação consistiu em selecionar a identidade que apresentou a menor distância em relação à consulta, caracterizando o candidato mais próximo no espaço de \textit{embeddings}.
+Para o teste, utilizou-se o subconjunto contendo 274 amostras com \textit{embeddings} válidos. Uma amostra foi selecionada como consulta e seu \textit{embedding} foi comparado, por distância cosseno, com todas as demais amostras da base. Para evitar auto-comparação, removeu-se apenas a própria amostra de consulta do conjunto de referência, mantendo-se outras amostras da mesma identidade quando disponíveis. O resultado da identificação foi definido pela menor distância observada, e a correspondência foi aceita quando $d_{\cos}(x,y)\leq\tau$.
 
-Como resultado, a identidade consultada foi associada à identidade mais próxima na base, apresentando uma distância cosseno de 0,0002, valor significativamente inferior ao limiar de decisão adotado. Com base nesse critério, a identidade foi corretamente confirmada pelo sistema, evidenciando que o método de identificação por similaridade é capaz de localizar a representação mais próxima de forma consistente no conjunto avaliado.
-
-Esse experimento demonstra, de forma objetiva, a viabilidade do uso de \textit{embeddings} faciais e métricas de similaridade para identificação automática em um cenário compatível com aplicações de controle de acesso. Embora não constitua uma avaliação estatística completa de desempenho, essa validação funcional complementa os resultados quantitativos apresentados anteriormente, ilustrando o comportamento do sistema em uma situação de uso realista.
-
-Os resultados apresentados permitem avaliar o desempenho da abordagem proposta e sua adequação ao problema investigado. Com base nessas evidências, o capítulo a seguir apresenta as conclusões do trabalho, retomando os objetivos propostos, destacando as principais contribuições e apontando limitações e possibilidades de trabalhos futuros.
+Como resultado, a busca recuperou uma amostra da mesma identidade como candidata mais próxima, com distância cosseno significativamente inferior a $\tau$, caracterizando uma correspondência genuína e coerente com o comportamento observado nas métricas \acs{FAR}/\acs{FRR}. Ressalta-se que este experimento não constitui uma avaliação estatística completa de desempenho 1:N (por exemplo, com múltiplas consultas e métricas de \textit{rank-1 accuracy}), mas serve como validação funcional do pipeline de identificação em um cenário compatível com aplicações de controle de acesso.

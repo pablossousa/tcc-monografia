@@ -228,7 +228,7 @@ No contexto do reconhecimento facial, modelos pré-treinados são ajustados prev
 Modelos modernos de reconhecimento facial, como aqueles inspirados em abordagens do tipo FaceNet ou ArcFace, são treinados com o objetivo de produzir \textit{embeddings} que maximizem a separação entre identidades diferentes e minimizem a distância entre amostras da mesma identidade. Em nível conceitual, isso significa que a rede aprende a transformar uma imagem facial em um vetor que captura características essenciais da estrutura do rosto, descartando variações irrelevantes, como pequenas mudanças de iluminação ou expressão
 \cite{schroff2015facenet} e \cite{deng2019arcface}.
 
-Embora o processo interno de aprendizado envolva operações matemáticas complexas, a ideia fundamental pode ser entendida de forma simples: o modelo aprende a destacar aquilo que torna um rosto diferente de outros rostos, e a representar essas diferenças em forma de números organizados em um vetor. Dessa forma, duas imagens da mesma pessoa tendem a gerar \textit{embeddings} semelhantes, enquanto imagens de pessoas diferentes tendem a gerar \textit{embeddings} mais distantes no espaço vetorial \cite{schroff2015facenet} e \cite{deng2019arcface}.
+Embora o processo interno de aprendizado envolva operações matemáticas complexas, a ideia fundamental pode ser entendida de forma simples: o modelo aprende a destacar aquilo que torna um rosto diferente de outros rostos, e a representar essas diferenças em forma de números organizados em um vetor. Dessa forma, duas imagens da mesma pessoa tendem a gerar \textit{embeddings} semelhantes, enquanto imagens de pessoas diferentes tendem a gerar \textit{embeddings} mais distantes no espaço vetorial \cite{schroff2015facenet, deng2019arcface}.
 
 \subsection{Detecção facial e reconhecimento facial}
 
@@ -241,7 +241,7 @@ O reconhecimento facial, por sua vez, ocorre após a face já ter sido detectada
     \begin{minipage}{0.9\textwidth}
         \caption{\label{fig:face_recognition} Pipeline típico de reconhecimento facial}
         \includegraphics[width=\textwidth]{Imagens/face_recognition.jpg}
-        \caption*{\footnotesize Fonte: \cite{pyimagesearch_face_recognition}}
+        \caption*{\footnotesize Fonte: \cite{openface}}
     \end{minipage}
 \end{figure}
 

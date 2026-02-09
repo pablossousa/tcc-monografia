@@ -56,6 +56,46 @@
       \field{pages}{3383\bibrangedash 3394}
       \range{pages}{12}
     \endentry
+    \entry{trigonometric_spam_classification}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ba200e8582613d0e3733c6a82b698d17}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={Marcos},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b46215306b00bef8ab13b04703461abe}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={João},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1549d6569c18f88da3e26ec98d9c8688}{%
+           family={Fernandes},
+           familyi={F\bibinitperiod},
+           given={Clara},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f7536e2d16ba5511c4a48a1f6bc29d85}
+      \strng{fullhash}{f7536e2d16ba5511c4a48a1f6bc29d85}
+      \strng{fullhashraw}{f7536e2d16ba5511c4a48a1f6bc29d85}
+      \strng{bibnamehash}{f7536e2d16ba5511c4a48a1f6bc29d85}
+      \strng{authorbibnamehash}{f7536e2d16ba5511c4a48a1f6bc29d85}
+      \strng{authornamehash}{f7536e2d16ba5511c4a48a1f6bc29d85}
+      \strng{authorfullhash}{f7536e2d16ba5511c4a48a1f6bc29d85}
+      \strng{authorfullhashraw}{f7536e2d16ba5511c4a48a1f6bc29d85}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.researchgate.net/publication/363771554_Trigonometric_words_ranking_model_for_spam_message_classification}}
+      \field{note}{Acesso em: 04 fev. 2026}
+      \field{title}{{Trigonometric words ranking model for spam message classification}}
+    \endentry
     \entry{anderson2020security}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0496e0f930cf8ad164981c51cafb41f2}{%
@@ -834,6 +874,31 @@
       \verb 10.1007/s10551-019-04143-6
       \endverb
     \endentry
+    \entry{openface}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a215fdf778b77f8d50d015ba4e10eca5}{%
+           family={{OpenFace}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a215fdf778b77f8d50d015ba4e10eca5}
+      \strng{fullhash}{a215fdf778b77f8d50d015ba4e10eca5}
+      \strng{fullhashraw}{a215fdf778b77f8d50d015ba4e10eca5}
+      \strng{bibnamehash}{a215fdf778b77f8d50d015ba4e10eca5}
+      \strng{authorbibnamehash}{a215fdf778b77f8d50d015ba4e10eca5}
+      \strng{authornamehash}{a215fdf778b77f8d50d015ba4e10eca5}
+      \strng{authorfullhash}{a215fdf778b77f8d50d015ba4e10eca5}
+      \strng{authorfullhashraw}{a215fdf778b77f8d50d015ba4e10eca5}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://cmusatyalab.github.io/openface/}}
+      \field{note}{Acesso em: 04 fev. 2026}
+      \field{title}{{OpenCV Face Recognition Tutorial}}
+      \field{year}{2016}
+    \endentry
     \entry{pan2010survey}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=224c02b5d289fefd08d4f9f1a83c5d0c}{%
@@ -939,31 +1004,6 @@
       \field{title}{{Lei Geral de Proteção de Dados Pessoais (LGPD) - Lei nº 13.709/2018}}
       \field{year}{2018}
     \endentry
-    \entry{pyimagesearch_face_recognition}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=782b585010403339f79cb534d5a7f7b0}{%
-           family={{PyImageSearch}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{782b585010403339f79cb534d5a7f7b0}
-      \strng{fullhash}{782b585010403339f79cb534d5a7f7b0}
-      \strng{fullhashraw}{782b585010403339f79cb534d5a7f7b0}
-      \strng{bibnamehash}{782b585010403339f79cb534d5a7f7b0}
-      \strng{authorbibnamehash}{782b585010403339f79cb534d5a7f7b0}
-      \strng{authornamehash}{782b585010403339f79cb534d5a7f7b0}
-      \strng{authorfullhash}{782b585010403339f79cb534d5a7f7b0}
-      \strng{authorfullhashraw}{782b585010403339f79cb534d5a7f7b0}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://pyimagesearch.com/2018/09/24/opencv-face-recognition/}}
-      \field{note}{Acesso em: 04 fev. 2026}
-      \field{title}{{OpenCV Face Recognition Tutorial}}
-      \field{year}{2018}
-    \endentry
     \entry{ratha2001enhancing}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=e5347de3befb8ceed940e34a051217e6}{%
@@ -1043,29 +1083,6 @@
       \verb{url}
       \verb https://www.rfc-editor.org/rfc/rfc8446
       \endverb
-    \endentry
-    \entry{trigonometric_spam_classification}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9c71ca0e8ac5da7336ffa149007898f9}{%
-           family={{ResearchGate}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{fullhash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{fullhashraw}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{bibnamehash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{authorbibnamehash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{authornamehash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{authorfullhash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{authorfullhashraw}{9c71ca0e8ac5da7336ffa149007898f9}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{labeldatesource}{nodate}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.researchgate.net/publication/363771554_Trigonometric_words_ranking_model_for_spam_message_classification}}
-      \field{note}{Acesso em: 04 fev. 2026}
-      \field{title}{{Trigonometric words ranking model for spam message classification}}
     \endentry
     \entry{rfidsilicone_nfc}{misc}{}{}
       \name{author}{1}{}{%
