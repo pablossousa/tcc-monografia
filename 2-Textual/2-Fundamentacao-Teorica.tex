@@ -1,7 +1,7 @@
 \chapter{Fundamentação Teórica}
 \label{chap:fundamentacao}
 
-Antes de abordar as técnicas biométricas e os métodos computacionais empregados neste trabalho, é importante compreender a tecnologia atualmente utilizada como base para o controle de acesso em muitos ambientes institucionais. O uso de cartões de identificação baseados em radiofrequência constitui o cenário de referência a partir do qual se discute a motivação para alternativas biométricas. Assim, as subseções a seguir apresentam os conceitos fundamentais de \acs{RFID} e \acs{NFC}, seu funcionamento básico, bem como limitações e vulnerabilidades associadas ao seu uso em sistemas de autenticação e controle de acesso.
+Antes de abordar as técnicas biométricas e os métodos computacionais empregados neste trabalho, é importante compreender a tecnologia atualmente utilizada como base para o controle de acesso em muitos ambientes institucionais. O uso de cartões de identificação baseados em radiofrequência constitui o cenário de referência a partir do qual se discute a motivação para alternativas biométricas.
 
 %------------------------------------------------
 
@@ -19,7 +19,7 @@ Apesar de seu potencial, o reconhecimento facial impõe desafios técnicos relev
 
 \section{RFID, NFC e cartões de identificação}
 
-O uso de cartões de identificação baseados em tecnologias de radiofrequência é uma solução amplamente adotada em sistemas de controle de acesso por combinar simplicidade operacional e rápida autenticação. Para compreender as motivações que levam à investigação de alternativas biométricas, é necessário apresentar os conceitos fundamentais dessas tecnologias, seu funcionamento básico e as limitações inerentes ao seu uso em ambientes reais \cite{masyuk2019rfid}. As subseções a seguir descrevem o funcionamento do \acs{RFID} e do \acs{NFC}, bem como aspectos práticos relacionados a custos, operação e segurança.
+O uso de cartões de identificação baseados em tecnologias de radiofrequência é uma solução amplamente adotada em sistemas de controle de acesso por combinar simplicidade operacional e rápida autenticação. Para compreender as motivações que levam à investigação de alternativas biométricas, é necessário apresentar os conceitos fundamentais dessas tecnologias, seu funcionamento básico e as limitações inerentes ao seu uso em ambientes reais. As subseções a seguir descrevem o funcionamento do \acs{RFID} e do \acs{NFC}, bem como aspectos práticos relacionados a custos, operação e segurança.
 
 \subsection{RFID: conceito e funcionamento básico}
 
@@ -182,7 +182,7 @@ Os conceitos de \textit{embeddings} e de medidas de distância explicam como com
 
 Em abordagens tradicionais de classificação, o modelo é treinado para associar cada entrada a um rótulo específico, como, por exemplo, identificar a qual classe uma imagem pertence. Nesse caso, o foco está em produzir uma decisão direta do tipo “esta imagem pertence à classe A ou à classe B”, sem que haja, necessariamente, uma preocupação explícita com a organização geométrica das representações internas do modelo \cite{bishop2006prml}.
 
-No aprendizado métrico, a ideia é diferente. Em vez de aprender apenas a prever rótulos, o modelo é treinado para construir um espaço de representação no qual amostras semelhantes fiquem próximas entre si e amostras diferentes fiquem afastadas. Assim, o resultado principal do modelo é um \textit{embedding} que pode ser comparado com outros por meio de uma métrica de distância. Essa abordagem é particularmente adequada para problemas de reconhecimento, nos quais o interesse está em medir similaridade entre amostras, e não apenas em atribuir uma classe fixa\cite{bellet2015survey}.
+No aprendizado métrico, a ideia é diferente. Em vez de aprender apenas a prever rótulos, o modelo é treinado para construir um espaço de representação no qual amostras semelhantes fiquem próximas entre si e amostras diferentes fiquem afastadas. Assim, o resultado principal do modelo é um \textit{embedding} que pode ser comparado com outros por meio de uma métrica de distância. Essa abordagem é particularmente adequada para problemas de reconhecimento, nos quais o interesse está em medir similaridade entre amostras, e não apenas em atribuir uma classe fixa \cite{bellet2015survey}.
 
 \subsection{Redes siamesas}
 
