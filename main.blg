@@ -1,17 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[89] biber-MSWIN64:342> INFO - === 
-[119] Biber.pm:421> INFO - Reading 'main.bcf'
-[225] Biber.pm:1002> INFO - Found 36 citekeys in bib section 0
-[237] Biber.pm:4487> INFO - Processing section 0
-[247] Biber.pm:4678> INFO - Looking for bibtex file 'Referencias.bib' for section 0
-[295] bibtex.pm:1713> INFO - LaTeX decoding ...
-[330] bibtex.pm:1519> INFO - Found BibTeX data source 'Referencias.bib'
-[510] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[510] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[510] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[510] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
-[543] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[560] bbl.pm:779> INFO - Output to main.bbl
-[560] Biber.pm:132> WARN - ISBN '9780123695312' in entry 'theodoridis2009pattern' is invalid - run biber with '--validate_datamodel' for details.
-[560] Biber.pm:134> INFO - WARNINGS: 1
+[211] biber-MSWIN64:342> INFO - === 
+[299] Biber.pm:421> INFO - Reading 'main.bcf'
+[407] Biber.pm:1002> INFO - Found 36 citekeys in bib section 0
+[419] Biber.pm:4487> INFO - Processing section 0
+[442] Biber.pm:4678> INFO - Looking for bibtex file 'Referencias.bib' for section 0
+[492] bibtex.pm:1713> INFO - LaTeX decoding ...
+[543] bibtex.pm:1519> INFO - Found BibTeX data source 'Referencias.bib'
+[808] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[808] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[809] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[809] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
+[874] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[891] bbl.pm:779> INFO - Output to main.bbl
+[892] Biber.pm:132> WARN - ISBN '9780123695312' in entry 'theodoridis2009pattern' is invalid - run biber with '--validate_datamodel' for details.
+[892] Biber.pm:134> INFO - WARNINGS: 1

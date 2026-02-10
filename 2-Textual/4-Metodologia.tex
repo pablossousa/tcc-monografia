@@ -3,12 +3,12 @@
 
 Este trabalho adota uma metodologia experimental com o objetivo de avaliar a viabilidade tecnológica do uso de reconhecimento facial como alternativa ao controle de acesso baseado em cartões \acs{NFC}, no contexto acadêmico do \acs{CEFET-MG}.
 
-A \ref{fig:diagrama1} apresenta uma visão geral do pipeline metodológico adotado neste trabalho, destacando as principais etapas do processo experimental, desde a aquisição das imagens faciais até a avaliação do reconhecimento para fins de controle de acesso.
+A \ref{fig:diagrama1} apresenta uma visão geral do \textit{pipeline} metodológico adotado neste trabalho, destacando as principais etapas do processo experimental, desde a aquisição das imagens faciais até a avaliação do reconhecimento para fins de controle de acesso.
 
 \begin{figure}[!htb]
     \centering
     \begin{minipage}{1.0\textwidth}
-        \caption{\label{fig:diagrama1} Pipeline metodológico adotado.}
+        \caption{\label{fig:diagrama1} \textit{Pipeline} metodológico adotado.}
         \includegraphics[width=\textwidth]{Imagens/diagramaBlocos.png}
         \caption*{\footnotesize Fonte: Elaborado pelo autor, 2026.}
     \end{minipage}
@@ -105,7 +105,7 @@ Após a geração das variações sintéticas das imagens faciais, procedeu-se �
 
 Para essa finalidade, foi utilizado o pacote InsightFace por meio do módulo \textit{FaceAnalysis} com o conjunto de modelos \texttt{buffalo\_l}. O modelo de reconhecimento empregado gera representações vetoriais discriminativas a partir de redes profundas e foi otimizado com funções de perda do tipo \textit{margin-based}, em particular a \textit{ArcFace} (margem angular aditiva), cujo objetivo é aumentar a separação entre identidades distintas e reduzir a variabilidade intraidentidade no espaço de características \cite{deng2019arcface}. Esse objetivo é coerente com a filosofia de aprendizado em espaço métrico, frequentemente discutida em conjunto com abordagens baseadas em \textit{triplet loss} \cite{ge2018hierarchical}.
 
-Cada imagem presente no conjunto de dados ampliado foi processada individualmente pelo pipeline, realizando-se inicialmente a detecção automática da face e, em seguida, a extração do vetor de características correspondente. O \textit{embedding} resultante consiste em um vetor numérico de dimensão fixa, capaz de capturar características discriminativas da face de forma robusta a variações de iluminação, expressão facial e pequenas alterações de pose \cite{kaya2019deep}.
+Cada imagem presente no conjunto de dados ampliado foi processada individualmente pelo \textit{pipeline}, realizando-se inicialmente a detecção automática da face e, em seguida, a extração do vetor de características correspondente. O \textit{embedding} resultante consiste em um vetor numérico de dimensão fixa, capaz de capturar características discriminativas da face de forma robusta a variações de iluminação, expressão facial e pequenas alterações de pose \cite{kaya2019deep}.
 
 Os \textit{embeddings} extraídos foram associados às respectivas identidades e armazenados no cadastro estruturado em formato \acs{JSON}. Como etapa de controle de qualidade, amostras nas quais a detecção facial ou a extração de características não foi bem-sucedida tiveram o campo \textit{embedding} definido como nulo e foram descartadas nas etapas de avaliação, resultando em um subconjunto final composto apenas por vetores válidos para as comparações subsequentes.
 
@@ -134,4 +134,4 @@ Como métricas de avaliação, foram consideradas a taxa de falsa aceitação (\
 
 Esse protocolo experimental foi aplicado tanto à abordagem inicial baseada em características geométricas quanto à abordagem baseada em \textit{embeddings} extraídos por modelo pré-treinado, permitindo uma avaliação consistente do comportamento das diferentes representações faciais consideradas neste estudo.
 
-A metodologia apresentada definiu o conjunto de procedimentos adotados para a construção da base de dados, a implementação do pipeline de reconhecimento facial e o protocolo experimental de avaliação. A partir dessa configuração experimental, o capítulo a seguir apresenta os resultados obtidos e discute o comportamento do sistema proposto diante das métricas e cenários avaliados.
+A metodologia apresentada definiu o conjunto de procedimentos adotados para a construção da base de dados, a implementação do \textit{pipeline} de reconhecimento facial e o protocolo experimental de avaliação. A partir dessa configuração experimental, o capítulo a seguir apresenta os resultados obtidos e discute o comportamento do sistema proposto diante das métricas e cenários avaliados.

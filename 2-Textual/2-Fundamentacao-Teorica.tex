@@ -234,12 +234,12 @@ Embora o processo interno de aprendizado envolva operações matemáticas comple
 
 É importante distinguir duas etapas conceitualmente diferentes em sistemas de reconhecimento facial: a detecção da face e o reconhecimento da identidade. A detecção facial tem como objetivo localizar “onde está a face” em uma imagem, isto é, identificar a região que contém um rosto, separando-a do fundo e de outros elementos da cena. Essa etapa responde apenas à pergunta “existe um rosto aqui e onde ele está?” \cite{zhao2003face}.
 
-O reconhecimento facial, por sua vez, ocorre após a face já ter sido detectada e recortada. Nessa etapa, o sistema busca responder à pergunta “quem é essa pessoa?”, extraindo um \textit{embedding} da região facial e comparando-o com representações previamente armazenadas. Separar essas duas etapas é fundamental para compreender o funcionamento do pipeline de reconhecimento, pois a qualidade da detecção influencia diretamente a qualidade das representações utilizadas na comparação, mas os objetivos de cada processo são distintos \cite{zhao2003face}.
+O reconhecimento facial, por sua vez, ocorre após a face já ter sido detectada e recortada. Nessa etapa, o sistema busca responder à pergunta “quem é essa pessoa?”, extraindo um \textit{embedding} da região facial e comparando-o com representações previamente armazenadas. Separar essas duas etapas é fundamental para compreender o funcionamento do \textit{pipeline} de reconhecimento, pois a qualidade da detecção influencia diretamente a qualidade das representações utilizadas na comparação, mas os objetivos de cada processo são distintos \cite{zhao2003face}.
 
 \begin{figure}[H]
     \centering
     \begin{minipage}{0.9\textwidth}
-        \caption{\label{fig:face_recognition} Pipeline típico de reconhecimento facial}
+        \caption{\label{fig:face_recognition} \textit{Pipeline} típico de reconhecimento facial}
         \includegraphics[width=\textwidth]{Imagens/face_recognition.jpg}
         \caption*{\footnotesize Fonte: \cite{openface}}
     \end{minipage}
@@ -322,7 +322,7 @@ A autenticidade, por sua vez, permite verificar a identidade das partes envolvid
 
 Na prática, esses princípios são implementados por meio de protocolos amplamente utilizados, como \acs{TLS} (\textit{Transport Layer Security}), que está na base do \acs{HTTPS}. O uso de \acs{TLS} permite estabelecer um canal de comunicação criptografado entre cliente e servidor, protegendo os dados contra escuta e adulteração, além de permitir a verificação da identidade do servidor por meio de certificados digitais \cite{rfc8446}.
 
-Em cenários que exigem maior nível de confiança, pode-se empregar a autenticação mútua, conhecida como \acs{mTLS}, na qual tanto o servidor quanto o cliente apresentam certificados para provar suas identidades. Isso cria um vínculo de confiança bidirecional entre as partes, reduzindo o risco de comunicação com entidades não autorizadas. No contexto do pipeline considerado neste trabalho, esse mecanismo é relevante para proteger a troca de informações entre o componente de captura e o servidor de processamento \cite{rfc8446}.
+Em cenários que exigem maior nível de confiança, pode-se empregar a autenticação mútua, conhecida como \acs{mTLS}, na qual tanto o servidor quanto o cliente apresentam certificados para provar suas identidades. Isso cria um vínculo de confiança bidirecional entre as partes, reduzindo o risco de comunicação com entidades não autorizadas. No contexto do \textit{pipeline} considerado neste trabalho, esse mecanismo é relevante para proteger a troca de informações entre o componente de captura e o servidor de processamento \cite{rfc8446}.
 
 É importante ressaltar, contudo, que a segurança do canal não garante, por si só, a segurança do modelo de reconhecimento ou das decisões tomadas pelo sistema. Protocolos como \acs{TLS} e \acs{mTLS} protegem a comunicação, mas não impedem, por exemplo, erros de classificação ou vulnerabilidades inerentes ao modelo. Por isso, a segurança da transmissão e a confiabilidade do reconhecimento devem ser tratadas como aspectos complementares de um mesmo sistema \cite{anderson2020security}.
 

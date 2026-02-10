@@ -61,6 +61,12 @@
 \contentsline {section}{\numberline {5.4}Análise qualitativa dos pares de comparação}{43}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Avaliação do processo de identificação (1:N)}{44}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Conclusão}{46}{chapter.6}%
-\contentsline {chapter}{\numberline {}Refer\^encias}{47}{section*.120}%
+\contentsline {chapter}{\numberline {7}Cronograma de Atividades}{47}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Objetivos das Atividades}{47}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Descrição das Atividades}{47}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Cronograma de Atividades}{48}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Local de Desenvolvimento das Atividades}{48}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Metodologia de Acompanhamento}{48}{section.7.5}%
+\contentsline {chapter}{\numberline {}Refer\^encias}{49}{section*.123}%
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
