@@ -25,9 +25,9 @@ O uso de cartões de identificação baseados em tecnologias de radiofrequência
 
 \acs{RFID} (\textit{Radio-Frequency Identification}) é uma tecnologia que permite a identificação automática de objetos ou pessoas por meio da comunicação sem fio entre um leitor e uma etiqueta eletrônica, denominada \textit{tag}. Essa comunicação ocorre por radiofrequência e dispensa contato físico direto entre o cartão e o leitor, o que torna o processo rápido e conveniente \cite{chatmon2006secure}.
 
-Uma \textit{tag} \acs{RFID} é composta, de forma simplificada, por um chip eletrônico e uma antena. O chip armazena um identificador único (\acs{UID}), enquanto a antena permite a comunicação com o leitor. O leitor, por sua vez, emite um campo eletromagnético que energiza a \textit{tag} (no caso de etiquetas passivas) e recebe as informações transmitidas por ela. Em sistemas com múltiplas \textit{tag}s presentes simultaneamente, são utilizados mecanismos de \textit{anticollision} para evitar conflitos na comunicação e permitir a leitura individual de cada identificador \cite{totvs_rfid_blog}.
+Uma \textit{tag} \acs{RFID} é composta, de forma simplificada, por um chip eletrônico e uma antena. O chip armazena um identificador único (\acs{UID}), enquanto a antena permite a comunicação com o leitor. O leitor, por sua vez, emite um campo eletromagnético que energiza a \textit{tag} (no caso de etiquetas passivas) e recebe as informações transmitidas por ela. Em sistemas com múltiplas \textit{tag}s presentes simultaneamente, são utilizados mecanismos de \textit{anticollision} para evitar conflitos na comunicação e permitir a leitura individual de cada identificador \cite{finkenzeller2010rfid}.
 
-O alcance da comunicação \acs{RFID} depende do tipo de \textit{tag} e da frequência utilizada, podendo variar de poucos centímetros a vários metros. Em sistemas de controle de acesso, utiliza-se geralmente um alcance reduzido, adequado para identificar um único cartão por vez, associado a uma pessoa específica \cite{totvs_rfid_blog}.
+O alcance da comunicação \acs{RFID} depende do tipo de \textit{tag} e da frequência utilizada, podendo variar de poucos centímetros a vários metros. Em sistemas de controle de acesso, utiliza-se geralmente um alcance reduzido, adequado para identificar um único cartão por vez, associado a uma pessoa específica \cite{finkenzeller2010rfid}.
 
 
 \subsection{NFC e sua relação com RFID}
@@ -122,7 +122,7 @@ Essa interpretação geométrica é útil porque permite comparar vetores por me
     \begin{minipage}{0.9\textwidth}
         \caption{\label{fig:vectors} Similaridade entre dois vetores com base no modelo de espaço vetorial.}
         \includegraphics[width=\textwidth]{Imagens/vectors.png}
-        \caption*{\footnotesize Fonte: \cite{trigonometric_spam_classification}}
+        \caption*{\footnotesize Fonte: \cite{Hadi2022TWRM}}
     \end{minipage}
 \end{figure}
 
@@ -298,7 +298,7 @@ No caso de dados biométricos, esses cuidados tornam-se ainda mais relevantes, p
 
 Diante dessas preocupações, uma estratégia adotada neste trabalho foi o uso de imagens faciais sintéticas, geradas por modelos baseados em \textit{GANs} (\textit{Generative Adversarial Networks}). Essas imagens representam rostos inexistentes e não estão associadas a pessoas reais, o que elimina riscos de identificação indevida e problemas relacionados à exposição de dados biométricos reais \cite{goodfellow2020gan}.
 
-Além de reduzir significativamente os riscos éticos e legais, o uso de dados sintéticos facilita a condução de experimentos e a reprodutibilidade dos resultados, pois a base de dados pode ser compartilhada e reutilizada sem violar a privacidade de indivíduos. Dessa forma, é possível avaliar o comportamento do \textit{pipeline} de reconhecimento facial de maneira controlada, mantendo o foco nos aspectos técnicos do método proposto, sem comprometer princípios de proteção de dados \cite{shorten2019survey}.
+Além de reduzir significativamente os riscos éticos e legais, o uso de dados sintéticos facilita a condução de experimentos e a reprodutibilidade dos resultados, pois a base de dados pode ser compartilhada e reutilizada sem violar a privacidade de indivíduos. Dessa forma, é possível avaliar o comportamento do \textit{pipeline} de reconhecimento facial de maneira controlada, mantendo o foco nos aspectos técnicos do método proposto, sem comprometer princípios de proteção de dados \cite{edps_synthetic_data}.
 
 %------------------------------------------------
 

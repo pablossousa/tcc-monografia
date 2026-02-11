@@ -19,83 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{abdullah2021face}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=d6654cb1e3a8948cd2c25b794db14d82}{%
-           family={Abdullah},
-           familyi={A\bibinitperiod},
-           given={Ihab\bibnamedelima Amer},
-           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=12bc6bd017065bcb5aa94d524b60b9a9}{%
-           family={Stephan},
-           familyi={S\bibinitperiod},
-           given={Jane\bibnamedelima Jaleel},
-           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{bb068657dd16c13d2f386dae42d8025a}
-      \strng{fullhash}{bb068657dd16c13d2f386dae42d8025a}
-      \strng{fullhashraw}{bb068657dd16c13d2f386dae42d8025a}
-      \strng{bibnamehash}{bb068657dd16c13d2f386dae42d8025a}
-      \strng{authorbibnamehash}{bb068657dd16c13d2f386dae42d8025a}
-      \strng{authornamehash}{bb068657dd16c13d2f386dae42d8025a}
-      \strng{authorfullhash}{bb068657dd16c13d2f386dae42d8025a}
-      \strng{authorfullhashraw}{bb068657dd16c13d2f386dae42d8025a}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Turkish Journal of Computer and Mathematics Education}
-      \field{number}{10}
-      \field{title}{Face Recognition Using Face Embedding Method}
-      \field{volume}{12}
-      \field{year}{2021}
-      \field{pages}{3383\bibrangedash 3394}
-      \range{pages}{12}
-    \endentry
-    \entry{trigonometric_spam_classification}{misc}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=ba200e8582613d0e3733c6a82b698d17}{%
-           family={Almeida},
-           familyi={A\bibinitperiod},
-           given={Marcos},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b46215306b00bef8ab13b04703461abe}{%
-           family={Silva},
-           familyi={S\bibinitperiod},
-           given={João},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1549d6569c18f88da3e26ec98d9c8688}{%
-           family={Fernandes},
-           familyi={F\bibinitperiod},
-           given={Clara},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f7536e2d16ba5511c4a48a1f6bc29d85}
-      \strng{fullhash}{f7536e2d16ba5511c4a48a1f6bc29d85}
-      \strng{fullhashraw}{f7536e2d16ba5511c4a48a1f6bc29d85}
-      \strng{bibnamehash}{f7536e2d16ba5511c4a48a1f6bc29d85}
-      \strng{authorbibnamehash}{f7536e2d16ba5511c4a48a1f6bc29d85}
-      \strng{authornamehash}{f7536e2d16ba5511c4a48a1f6bc29d85}
-      \strng{authorfullhash}{f7536e2d16ba5511c4a48a1f6bc29d85}
-      \strng{authorfullhashraw}{f7536e2d16ba5511c4a48a1f6bc29d85}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeldatesource}{nodate}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.researchgate.net/publication/363771554_Trigonometric_words_ranking_model_for_spam_message_classification}}
-      \field{note}{Acesso em: 04 fev. 2026}
-      \field{title}{{Trigonometric words ranking model for spam message classification}}
-    \endentry
     \entry{anderson2020security}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0496e0f930cf8ad164981c51cafb41f2}{%
@@ -166,11 +89,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Machine Learning Research}
+      \field{number}{78}
       \field{title}{A Survey on Metric Learning for Feature Vectors and Structured Data}
       \field{volume}{16}
       \field{year}{2015}
-      \field{pages}{1\bibrangedash 45}
-      \range{pages}{45}
+      \field{pages}{1467\bibrangedash 1514}
+      \range{pages}{48}
     \endentry
     \entry{bishop2006prml}{book}{}{}
       \name{author}{1}{}{%
@@ -258,6 +182,59 @@
       \field{title}{Guide to Biometrics}
       \field{year}{2013}
     \endentry
+    \entry{bromley1994siamese}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d3c69f2d5eb533751427eeacdec67adc}{%
+           family={Bromley},
+           familyi={B\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=284a778b6c8e17f1aae38e288dc06036}{%
+           family={Guyon},
+           familyi={G\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
+           family={LeCun},
+           familyi={L\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=583a2b7e416b4f05572062faf222e09d}{%
+           family={Säckinger},
+           familyi={S\bibinitperiod},
+           given={Eduard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3be1014c0d2feb9aa7f94435e060486}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Roopak},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ef7f9e9ba7fd5141ba343582e89d7fb2}
+      \strng{fullhash}{14467c8b42897579ded78f7d50eed17e}
+      \strng{fullhashraw}{14467c8b42897579ded78f7d50eed17e}
+      \strng{bibnamehash}{ef7f9e9ba7fd5141ba343582e89d7fb2}
+      \strng{authorbibnamehash}{ef7f9e9ba7fd5141ba343582e89d7fb2}
+      \strng{authornamehash}{ef7f9e9ba7fd5141ba343582e89d7fb2}
+      \strng{authorfullhash}{14467c8b42897579ded78f7d50eed17e}
+      \strng{authorfullhashraw}{14467c8b42897579ded78f7d50eed17e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems (NIPS)}
+      \field{title}{Signature Verification using a {``Siamese''} Time Delay Neural Network}
+      \field{year}{1994}
+      \field{pages}{737\bibrangedash 744}
+      \range{pages}{8}
+    \endentry
     \entry{chatmon2006secure}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=7aaf5a6accc17a5ec67dc04c584e292d}{%
@@ -344,30 +321,59 @@
       \field{pages}{4690\bibrangedash 4699}
       \range{pages}{10}
     \endentry
-    \entry{totvs_rfid_blog}{misc}{}{}
+    \entry{edps_synthetic_data}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a445470123a759f957fddb3a52d01e9e}{%
-           family={{Equipe TOTVS}},
+        {{un=0,uniquepart=base,hash=70f4801891af977d8f36ab5020f35d9e}{%
+           family={{European Data Protection Supervisor (EDPS)}},
            familyi={E\bibinitperiod}}}%
       }
-      \strng{namehash}{a445470123a759f957fddb3a52d01e9e}
-      \strng{fullhash}{a445470123a759f957fddb3a52d01e9e}
-      \strng{fullhashraw}{a445470123a759f957fddb3a52d01e9e}
-      \strng{bibnamehash}{a445470123a759f957fddb3a52d01e9e}
-      \strng{authorbibnamehash}{a445470123a759f957fddb3a52d01e9e}
-      \strng{authornamehash}{a445470123a759f957fddb3a52d01e9e}
-      \strng{authorfullhash}{a445470123a759f957fddb3a52d01e9e}
-      \strng{authorfullhashraw}{a445470123a759f957fddb3a52d01e9e}
+      \strng{namehash}{70f4801891af977d8f36ab5020f35d9e}
+      \strng{fullhash}{70f4801891af977d8f36ab5020f35d9e}
+      \strng{fullhashraw}{70f4801891af977d8f36ab5020f35d9e}
+      \strng{bibnamehash}{70f4801891af977d8f36ab5020f35d9e}
+      \strng{authorbibnamehash}{70f4801891af977d8f36ab5020f35d9e}
+      \strng{authornamehash}{70f4801891af977d8f36ab5020f35d9e}
+      \strng{authorfullhash}{70f4801891af977d8f36ab5020f35d9e}
+      \strng{authorfullhashraw}{70f4801891af977d8f36ab5020f35d9e}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.totvs.com/blog/gestao-industrial/rfid/}}
-      \field{note}{acesso em: 1 fev. 2026}
-      \field{title}{{O que é RFID, como funciona e aplicações dessa tecnologia}}
-      \field{year}{2022}
+      \field{howpublished}{\url{https://www.edps.europa.eu/press-publications/publications/techsonar/synthetic-data_en}}
+      \field{note}{acesso em: 03 fev. 2026}
+      \field{title}{{Synthetic Data – TechSonar}}
+      \field{year}{2025}
+    \endentry
+    \entry{finkenzeller2010rfid}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=41ecbab034ca384b6721520f4d82a83f}{%
+           family={Finkenzeller},
+           familyi={F\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John wiley \& sons}%
+      }
+      \strng{namehash}{41ecbab034ca384b6721520f4d82a83f}
+      \strng{fullhash}{41ecbab034ca384b6721520f4d82a83f}
+      \strng{fullhashraw}{41ecbab034ca384b6721520f4d82a83f}
+      \strng{bibnamehash}{41ecbab034ca384b6721520f4d82a83f}
+      \strng{authorbibnamehash}{41ecbab034ca384b6721520f4d82a83f}
+      \strng{authornamehash}{41ecbab034ca384b6721520f4d82a83f}
+      \strng{authorfullhash}{41ecbab034ca384b6721520f4d82a83f}
+      \strng{authorfullhashraw}{41ecbab034ca384b6721520f4d82a83f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{RFID handbook: fundamentals and applications in contactless smart cards, radio frequency identification and near-field communication}
+      \field{year}{2010}
     \endentry
     \entry{ge2018hierarchical}{inproceedings}{}{}
       \name{author}{4}{}{%
@@ -559,6 +565,46 @@
       \field{note}{acesso em: 31 jan. 2026}
       \field{title}{{ML Kit Vision – Detecção de Face Mesh}}
       \field{year}{2026}
+    \endentry
+    \entry{Hadi2022TWRM}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c0505381470dda00eefdc1231403b51}{%
+           family={{Hadi, Suha Mohammed and Alsaeedi, Ali Hakem and others}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-Blackwell}%
+      }
+      \strng{namehash}{5c0505381470dda00eefdc1231403b51}
+      \strng{fullhash}{5c0505381470dda00eefdc1231403b51}
+      \strng{fullhashraw}{5c0505381470dda00eefdc1231403b51}
+      \strng{bibnamehash}{5c0505381470dda00eefdc1231403b51}
+      \strng{authorbibnamehash}{5c0505381470dda00eefdc1231403b51}
+      \strng{authornamehash}{5c0505381470dda00eefdc1231403b51}
+      \strng{authorfullhash}{5c0505381470dda00eefdc1231403b51}
+      \strng{authorfullhashraw}{5c0505381470dda00eefdc1231403b51}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IET Networks}
+      \field{number}{6}
+      \field{title}{{Trigonometric Words Ranking Model for Spam Message Classification}}
+      \field{volume}{11}
+      \field{year}{2022}
+      \field{pages}{233\bibrangedash 246}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1049/ntw2.12063
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1049/ntw2.12063
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1049/ntw2.12063
+      \endverb
     \endentry
     \entry{hassaballah2015face}{article}{}{}
       \name{author}{2}{}{%
@@ -1184,44 +1230,6 @@
       \field{year}{2015}
       \field{pages}{815\bibrangedash 823}
       \range{pages}{9}
-    \endentry
-    \entry{shorten2019survey}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=d49d1c5cbce775054678e29a462ca723}{%
-           family={Shorten},
-           familyi={S\bibinitperiod},
-           given={Connor},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c7e0de384e7d1be2ca29a338e7f5c047}{%
-           family={Khoshgoftaar},
-           familyi={K\bibinitperiod},
-           given={Taghi\bibnamedelima M.},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{dae7c2fd5449b2cabfe6d8cea2eebe96}
-      \strng{fullhash}{dae7c2fd5449b2cabfe6d8cea2eebe96}
-      \strng{fullhashraw}{dae7c2fd5449b2cabfe6d8cea2eebe96}
-      \strng{bibnamehash}{dae7c2fd5449b2cabfe6d8cea2eebe96}
-      \strng{authorbibnamehash}{dae7c2fd5449b2cabfe6d8cea2eebe96}
-      \strng{authornamehash}{dae7c2fd5449b2cabfe6d8cea2eebe96}
-      \strng{authorfullhash}{dae7c2fd5449b2cabfe6d8cea2eebe96}
-      \strng{authorfullhashraw}{dae7c2fd5449b2cabfe6d8cea2eebe96}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Big Data}
-      \field{number}{60}
-      \field{title}{A Survey on Image Data Augmentation for Deep Learning}
-      \field{volume}{6}
-      \field{year}{2019}
-      \verb{doi}
-      \verb 10.1186/s40537-019-0197-0
-      \endverb
     \endentry
     \entry{silvajunior2025}{monograph}{}{}
       \name{author}{1}{}{%
