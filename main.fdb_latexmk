@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1770780782.94374 "main.bcf" "main.bbl" "main" 1770785312.63911 0
+["biber main"] 1770780782.94374 "main.bcf" "main.bbl" "main" 1770785772.09949 0
   "Referencias.bib" 1770780775 11559 acfefaf68acb5764cb16cc5f85cb8e79 ""
-  "main.bcf" 1770785312 122377 fa7621598f273007aa0504abcfca1f37 "pdflatex"
+  "main.bcf" 1770785771 122377 fa7621598f273007aa0504abcfca1f37 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1770785308.66292 "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" "main.pdf" "main" 1770785312.63976 0
+["pdflatex"] 1770785768.20699 "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" "main.pdf" "main" 1770785772.10015 0
   "./Pacotes/CEFET.sty" 1770347310 9831 d89539233a40e6dde1eb50159658e721 ""
   "./Pacotes/biblatex-abnt/latex/bbx/abnt.bbx" 1769203940 71996 11dbc19d4619916cb1bbe9955f3bd32b ""
   "./Pacotes/biblatex-abnt/latex/cbx/abnt.cbx" 1769203940 23085 0d6fa66ecdb71036cb7075216ea01753 ""
@@ -14,7 +14,7 @@
   "./Pacotes/biblatex-abnt/latex/lbx/brazilian-abnt.lbx" 1769203940 16916 77844ace0a4cc28abb22b44920384ebf ""
   "./Pacotes/biblatex-abnt/latex/lbx/english-abnt.lbx" 1769203940 6003 7b0b6b4c54006187171c040d00e2752b ""
   "1-Pre-Textual/Abstract.tex" 1770607613 1833 ef3c00592e45d52bb1641e75350bcbe8 ""
-  "1-Pre-Textual/Agradecimentos.tex" 1770785308 2765 a9f8dbdfeacdaeb6aa1b3d2e6c330581 ""
+  "1-Pre-Textual/Agradecimentos.tex" 1770785766 2730 727072d9bfff31a1a70bd8d9afadc08a ""
   "1-Pre-Textual/Resumo.tex" 1770607423 1866 fcd37f22eacc15eeaffe32f234dbfa33 ""
   "1-Pre-Textual/Siglas.tex" 1770607765 1414 ee5aface5263145733618bf694481414 ""
   "2-Textual/1-Introducao.tex" 1770779925 6504 4466aa11202b8bfb4bd2fd508b6f47e6 ""
@@ -187,14 +187,14 @@
   "Pacotes/biblatex-abnt/latex/lbx/brazilian-abnt.lbx" 1769203940 16916 77844ace0a4cc28abb22b44920384ebf ""
   "Pacotes/biblatex-abnt/latex/lbx/english-abnt.lbx" 1769203940 6003 7b0b6b4c54006187171c040d00e2752b ""
   "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" 1770693701 2065 4f4690bbc03d6bd21cb68343e151500c ""
-  "main.aux" 1770785312 44442 97346026b4b34956d9315bf367eb13b6 "pdflatex"
+  "main.aux" 1770785771 44442 97346026b4b34956d9315bf367eb13b6 "pdflatex"
   "main.bbl" 1770780784 60326 68eaa586f9436f8108848ffa6f21f06b "biber main"
-  "main.lof" 1770785312 1568 43cd460957c8c999a2d8d31bcad35c88 "pdflatex"
-  "main.lot" 1770785312 528 c531694f235fc8dfed3a0c4e0a615085 "pdflatex"
-  "main.out" 1770785312 17651 b8eec6c44531e43c03db3ed66aebe479 "pdflatex"
-  "main.run.xml" 1770785312 2511 a157f2756a3b163f1977b83d30951c40 "pdflatex"
+  "main.lof" 1770785771 1568 43cd460957c8c999a2d8d31bcad35c88 "pdflatex"
+  "main.lot" 1770785771 528 c531694f235fc8dfed3a0c4e0a615085 "pdflatex"
+  "main.out" 1770785771 17651 b8eec6c44531e43c03db3ed66aebe479 "pdflatex"
+  "main.run.xml" 1770785771 2511 a157f2756a3b163f1977b83d30951c40 "pdflatex"
   "main.tex" 1770693701 2065 4f4690bbc03d6bd21cb68343e151500c ""
-  "main.toc" 1770785312 7194 b75809061dcd130b558cb78b5d7cf431 "pdflatex"
+  "main.toc" 1770785771 7194 b75809061dcd130b558cb78b5d7cf431 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
