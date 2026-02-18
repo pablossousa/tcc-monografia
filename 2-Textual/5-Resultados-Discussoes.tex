@@ -32,7 +32,7 @@ Nesta seção é avaliado o desempenho do sistema de reconhecimento facial por m
 
 Para essa avaliação, foram considerados 37.401 pares de comparação, obtidos a partir de 274 amostras faciais com \textit{embeddings} válidos. Cada par foi classificado de acordo com sua identidade real (mesma identidade ou identidades distintas) e comparado com base na distância cosseno. A decisão de correspondência foi tomada comparando-se essa distância com um valor de \textit{threshold}, sendo considerada uma correspondência positiva quando a distância é inferior ao limiar.
 
-Embora o conjunto de dados seja composto por 300 identidades, com aplicação de técnicas de aumento de dados que resultariam em aproximadamente 1200 imagens, nem todas as amostras geraram \textit{embeddings} válidos. Durante a etapa de extração, imagens nas quais o detector facial não identificou corretamente um rosto, ou que apresentaram problemas de leitura, foram automaticamente descartadas, sendo seus \textit{embeddings} definidos como nulos. Em consequência, apenas 274 amostras com \textit{embeddings} válidos foram efetivamente utilizadas nas avaliações. Esse valor é consistente com o total de 37.401 pares analisados, uma vez que esse número corresponde a $\frac{274 \times 273}{2}$ combinações possíveis entre vetores válidos.
+Embora o conjunto de dados seja composto por 300 identidades, com aplicação de técnicas de aumento de dados que resultariam em aproximadamente 1200 imagens, nem todas as amostras geraram \textit{embeddings} válidos. Durante a etapa de extração, imagens nas quais o detector facial não identificou corretamente um rosto, ou que apresentaram problemas de leitura, foram automaticamente descartadas, sendo seus \textit{embeddings} definidos como nulos. Em consequência, apenas 274 amostras com \textit{embeddings} válidos foram efetivamente utilizadas nas avaliações. Esse valor é consistente com o total de 37.401 pares analisados, uma vez que esse número corresponde a $\frac{274 \times 273}{2}$ $\Big(\frac{N\times (N-1)}{2}\Big)$ combinações possíveis entre vetores válidos.
 
 \begin{table}[H]
 \centering
@@ -77,7 +77,7 @@ Esta seção apresenta uma análise qualitativa dos resultados obtidos, com o ob
 
 Foram selecionados exemplos representativos de pares da mesma identidade e de pares de identidades diferentes, considerando o limiar de decisão definido na seção anterior (distância cosseno inferior a 0,40 para correspondência positiva). Nos pares da mesma identidade, são comparadas imagens distintas associadas a um mesmo identificador, incluindo variações sintéticas decorrentes de transformações aplicadas às imagens originais. Nos pares de identidades diferentes, são comparadas imagens pertencentes a indivíduos distintos corretamente rejeitados pelo sistema.
 
-\begin{figure}[!htb]
+\begin{figure}[H]
     \centering
     \begin{minipage}{1.0\textwidth}
         \caption{\label{fig:pessoas_iguais} Exemplo de par da mesma identidade corretamente aceitos}
@@ -86,7 +86,7 @@ Foram selecionados exemplos representativos de pares da mesma identidade e de pa
     \end{minipage}
 \end{figure}
 
-\begin{figure}[!htb]
+\begin{figure}[H]
     \centering
     \begin{minipage}{1.0\textwidth}
         \caption{\label{fig:pessoas_diferentes} Exemplo de par de identidades diferentes corretamente rejeitados}
