@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1771384569.95894 "main.bcf" "main.bbl" "main" 1771385775.32541 0
+["biber main"] 1771701758.01861 "main.bcf" "main.bbl" "main" 1771703126.88201 0
   "Referencias.bib" 1770780775 11559 acfefaf68acb5764cb16cc5f85cb8e79 ""
-  "main.bcf" 1771385775 122377 fa7621598f273007aa0504abcfca1f37 "pdflatex"
+  "main.bcf" 1771703126 122302 e5525e22eb7cc651e44a56a4c6d1cd5e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1771385771.43016 "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" "main.pdf" "main" 1771385775.32604 0
+["pdflatex"] 1771703122.35275 "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" "main.pdf" "main" 1771703126.88496 0
   "./Pacotes/CEFET.sty" 1770347310 9831 d89539233a40e6dde1eb50159658e721 ""
   "./Pacotes/biblatex-abnt/latex/bbx/abnt.bbx" 1769203940 71996 11dbc19d4619916cb1bbe9955f3bd32b ""
   "./Pacotes/biblatex-abnt/latex/cbx/abnt.cbx" 1769203940 23085 0d6fa66ecdb71036cb7075216ea01753 ""
@@ -16,12 +16,12 @@
   "1-Pre-Textual/Abstract.tex" 1770607613 1833 ef3c00592e45d52bb1641e75350bcbe8 ""
   "1-Pre-Textual/Agradecimentos.tex" 1770785766 2730 727072d9bfff31a1a70bd8d9afadc08a ""
   "1-Pre-Textual/Resumo.tex" 1770607423 1866 fcd37f22eacc15eeaffe32f234dbfa33 ""
-  "1-Pre-Textual/Siglas.tex" 1771384689 1453 41203ddd1dd72471c5c6a52a62e306a5 ""
+  "1-Pre-Textual/Siglas.tex" 1771703101 1516 0aeb31ca618c9172e0831e0bdb656769 ""
   "2-Textual/1-Introducao.tex" 1770779925 6504 4466aa11202b8bfb4bd2fd508b6f47e6 ""
   "2-Textual/2-Fundamentacao-Teorica.tex" 1770780778 46406 5732220370c43b25bb11a9b5abdb97c0 ""
   "2-Textual/3-Trabalhos-Relacionados.tex" 1770692089 6423 0004d3800e6a5b38c1a2742bb5c42af1 ""
-  "2-Textual/4-Metodologia.tex" 1771382525 18033 0d02a53ce9531efe9f1b6f49480e37d7 ""
-  "2-Textual/5-Resultados-Discussoes.tex" 1771385770 12923 8fad18f862e246a43b297fa3a2c25083 ""
+  "2-Textual/4-Metodologia.tex" 1771703113 17752 dd36f9efed33e47a37025799b63c843e ""
+  "2-Textual/5-Resultados-Discussoes.tex" 1771703120 12183 e0242d76081b62b70f4ea8bef77d6af2 ""
   "2-Textual/6-Conclusao.tex" 1771384623 2652 433611a203bd2457fc5aeda811b3e2da ""
   "2-Textual/7-Cronograma.tex" 1771384777 3738 2ac4a94cb57743fd6e95974eb574211a ""
   "C:/Users/pablo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770953640 82686 2381c3433487640bf26aa76a10db7eb2 ""
@@ -177,7 +177,7 @@
   "Imagens/nfc.png" 1770216000 188481 f2f14fe96f5d43d310f64473f464d8ee ""
   "Imagens/pessoas_diferentes.png" 1770061902 1045047 547514b556e72ccef09c4a6ef995c25d ""
   "Imagens/pessoas_iguais.png" 1770061923 998423 c818fbbb6657cf27666545fc7396e7a4 ""
-  "Imagens/result1.png" 1770057391 32563 25ec98c9b5cb83171bd2a220bc24a78b ""
+  "Imagens/result1.png" 1771698371 39467 f8d67f6078d61c80bdf8c05eb8e2e2a1 ""
   "Imagens/triplet.png" 1769748368 55992 91e777b511fc84582b3bdc295c51b469 ""
   "Imagens/vectors.png" 1770217056 41565 bb06c50ca87824ca5c3dd8a22f44d185 ""
   "Pacotes/CEFET.sty" 1770347310 9831 d89539233a40e6dde1eb50159658e721 ""
@@ -187,14 +187,14 @@
   "Pacotes/biblatex-abnt/latex/lbx/brazilian-abnt.lbx" 1769203940 16916 77844ace0a4cc28abb22b44920384ebf ""
   "Pacotes/biblatex-abnt/latex/lbx/english-abnt.lbx" 1769203940 6003 7b0b6b4c54006187171c040d00e2752b ""
   "c:/Users/pablo/Desktop/TCC/TCC_1/monografia/main.tex" 1770693701 2065 4f4690bbc03d6bd21cb68343e151500c ""
-  "main.aux" 1771385775 44997 80b14f4dbfb20e73a1c730dec9ea0e68 "pdflatex"
-  "main.bbl" 1771384609 60326 68eaa586f9436f8108848ffa6f21f06b "biber main"
-  "main.lof" 1771385775 1568 38c1aa38f66c1e2a5c2e894b3949eeab "pdflatex"
-  "main.lot" 1771385775 528 ea8ff9a7e90fc3935481b478ae2333da "pdflatex"
-  "main.out" 1771385775 17651 5b780a52b449b4723be31a084307016f "pdflatex"
-  "main.run.xml" 1771385775 2511 a157f2756a3b163f1977b83d30951c40 "pdflatex"
+  "main.aux" 1771703126 45095 9f5cbf771ea2f884950f09ef5a9a15d1 "pdflatex"
+  "main.bbl" 1771701764 60326 68eaa586f9436f8108848ffa6f21f06b "biber main"
+  "main.lof" 1771703126 1568 5e9fe92e330943a2b3ece61b9b5a438c "pdflatex"
+  "main.lot" 1771703126 528 18884244c1990dfcb7af966684e1850c "pdflatex"
+  "main.out" 1771703126 17758 9dda24f140952bcb573d75cf2a7f09d8 "pdflatex"
+  "main.run.xml" 1771703126 2511 a157f2756a3b163f1977b83d30951c40 "pdflatex"
   "main.tex" 1770693701 2065 4f4690bbc03d6bd21cb68343e151500c ""
-  "main.toc" 1771385775 7194 478e7ae7068022d236a6cb9bc48e2157 "pdflatex"
+  "main.toc" 1771703126 7213 6b9e54e62bfc8fa5f9769b22b720c2a6 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

@@ -2571,15 +2571,14 @@
     <bcf:citekey order="100" intorder="1">mlkit_face_mesh</bcf:citekey>
     <bcf:citekey order="101" intorder="1">ge2018hierarchical</bcf:citekey>
     <bcf:citekey order="102" intorder="1">ge2018hierarchical</bcf:citekey>
-    <bcf:citekey order="103" intorder="1">ge2018hierarchical</bcf:citekey>
-    <bcf:citekey order="104" intorder="1">kaya2019deep</bcf:citekey>
-    <bcf:citekey order="105" intorder="1">ge2018hierarchical</bcf:citekey>
-    <bcf:citekey order="106" intorder="1">deng2019arcface</bcf:citekey>
-    <bcf:citekey order="107" intorder="1">ge2018hierarchical</bcf:citekey>
-    <bcf:citekey order="108" intorder="1">kaya2019deep</bcf:citekey>
-    <bcf:citekey order="109" intorder="1">schroff2015facenet</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">kaya2019deep</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">ge2018hierarchical</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">deng2019arcface</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">ge2018hierarchical</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">kaya2019deep</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">schroff2015facenet</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">jain2004biometric</bcf:citekey>
     <bcf:citekey order="110" intorder="1">jain2004biometric</bcf:citekey>
-    <bcf:citekey order="111" intorder="1">jain2004biometric</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
